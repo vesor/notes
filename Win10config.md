@@ -23,3 +23,7 @@ See powershell install instructions in github
     $cred = Get-Credential
     Enter-PSSession -ComputerName 10.xx.xx.xx -Credential $cred -Authentication Basic
 
+
+# Nvidia SMI
+
+C:\Program Files\NVIDIA Corporation\NVSMI
