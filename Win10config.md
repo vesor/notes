@@ -1,4 +1,4 @@
-# PowerShell
+# 1) Remote access using PowerShell
 
 ## Config windows powershell
 The way to allow remote powershell doesn't look secure, but that what MS can provide for now.
@@ -24,6 +24,21 @@ See powershell install instructions in github
     Enter-PSSession -ComputerName 10.xx.xx.xx -Credential $cred -Authentication Basic
 
 
-# Nvidia SMI
+# 2) Make Powershell more powerful
+## allow to run script 
+    Set-ExecutionPolicy RemoteSigned
+## create profile (something like .bashrc)
+    New-Item $profile -Type File -Force
+It creates a file called Microsoft.PowerShell_profile.ps1 in a folder called WindowsPowerShell under your Documents folder.
 
-C:\Program Files\NVIDIA Corporation\NVSMI
+## install vim for windows
+Then use vim in powershell.
+    set-alias vim "C:/Program Files/Vim/Vim74/./vim.exe"
+    
+# Powershell commands
+    $PSVersionTable
+    $Profile
+
+# Misc
+Nvidia SMI locate in 
+    C:\Program Files\NVIDIA Corporation\NVSMI
