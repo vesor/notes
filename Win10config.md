@@ -61,3 +61,8 @@ To use this preconfigured session you would type, from the local computer:
 Nvidia SMI locate in 
 
     C:\Program Files\NVIDIA Corporation\NVSMI
+
+Run in hidden, needs admin privilege.
+
+    Start-Process -WindowStyle hidden -FilePath cmdxxxx param1 param2 ...
+    
