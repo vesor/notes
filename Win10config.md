@@ -33,12 +33,31 @@ It creates a file called Microsoft.PowerShell_profile.ps1 in a folder called Win
 
 ## install vim for windows
 Then use vim in powershell.
+
     set-alias vim "C:/Program Files/Vim/Vim74/./vim.exe"
+
+## create profile for remote session
+When starting a remote interactive session with enter-pssession, a remote profile is loaded. Additionally, only the machine-level profile in $pshome is loaded.
+
+If you want a session to be preconfigured, add a profile script to a new sessionconfiguration
+
+    Register-PSSessionConfiguration -Name WithProfile -StartupScript "C:\xxx\Microsoft.PowerShell_profile.ps1"
     
+or you might need delete existing config:
+
+    Unregister-PSSessionConfiguration -Name WithProfile
+    
+To use this preconfigured session you would type, from the local computer:
+
+    Enter-PSSession -ComputerName $computername -ConfigurationName WithProfile -Credential youradminuser@yourtargetdomain
+
+***Note vim/emacs won't work in remote powershell session***
+
 # Powershell commands
     $PSVersionTable
     $Profile
 
 # Misc
 Nvidia SMI locate in 
+
     C:\Program Files\NVIDIA Corporation\NVSMI
