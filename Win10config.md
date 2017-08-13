@@ -31,7 +31,7 @@ See powershell install instructions in github
 
 ### access from linux powershell
     $cred = Get-Credential
-    Enter-PSSession -ComputerName 10.xx.xx.xx -Credential $cred -Authentication Basic
+    Enter-PSSession -ComputerName 10.xx.xx.xx -Authentication Basic -Credential $cred
   
   or just username:
   
@@ -62,7 +62,7 @@ or you might need delete existing config:
     
 To use this preconfigured session you would type, from the local computer:
 
-    Enter-PSSession -ComputerName $computername -ConfigurationName WithProfile -Credential youradminuser@yourtargetdomain
+    Enter-PSSession -ComputerName $computername -ConfigurationName WithProfile
 
 ***Note vim/emacs won't work in remote powershell session***
 
@@ -81,4 +81,5 @@ Nvidia SMI locate in
 Run in hidden, needs admin privilege.
 
     Start-Process -WindowStyle hidden -FilePath cmdxxxx param1 param2 ...
+    Start-Process -WindowStyle hidden -FilePath powershell xxxx.ps1
     
