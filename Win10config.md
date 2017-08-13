@@ -1,4 +1,10 @@
-# 1) Remote access using PowerShell
+# Install both Python2 and Python3
+Install python2 and python3.
+Add PATH enviroment variable: C:\Python\Python27;C:\Python\Python27\Scripts;C:\Python\Python35;C:\Python\Python35\Scripts;
+Rename Python27\python.exe to Python27\python2.exe, rename Python35\python.exe to Python35\python3.exe
+Use python2 -m pip install XXX or pip2 install XXX for different pip version
+
+# Remote access using PowerShell
 
 ## Config windows powershell
 The way to allow remote powershell doesn't look secure, but that what MS can provide for now.
@@ -24,7 +30,7 @@ See powershell install instructions in github
     Enter-PSSession -ComputerName 10.xx.xx.xx -Credential $cred -Authentication Basic
 
 
-# 2) Make Powershell more powerful
+# Make Powershell more powerful
 ## allow to run script 
     Set-ExecutionPolicy RemoteSigned
 ## create profile (something like .bashrc)
