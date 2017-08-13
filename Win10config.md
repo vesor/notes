@@ -57,6 +57,9 @@ To use this preconfigured session you would type, from the local computer:
     $PSVersionTable
     $Profile
 
+# Enable SSH server in Win10
+https://ctrl.blog/entry/how-to-win10-ssh-service
+
 # Misc
 Nvidia SMI locate in 
 
