@@ -32,7 +32,10 @@ See powershell install instructions in github
 ### access from linux powershell
     $cred = Get-Credential
     Enter-PSSession -ComputerName 10.xx.xx.xx -Credential $cred -Authentication Basic
-
+  
+  or just username:
+  
+    Enter-PSSession -ComputerName 10.xx.xx.xx -Authentication Basic -Credential UserName
 
 # Make Powershell more powerful
 ## allow to run script 
