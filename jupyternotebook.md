@@ -8,7 +8,7 @@
     
 ## use both python2 and python3 in jupyter
 
-    pip2 install jupyter (Try pip install IPython==5.0 jupyter, if the err says not compatible to IPython 6.0)
+    pip2 install jupyter (Try pip2 install IPython==5.0 jupyter, if the err says not compatible to IPython 6.0)
     pip3 install jupyter
     
     python2 -m ipykernel install --user
