@@ -19,3 +19,6 @@
 
 # use mirror for pip
 	pip install -i https://pypi.doubanio.com/simple/ --trusted-host pypi.doubanio.com XXXX
+	
+See details in https://python.freelycode.com/contribution/detail/4
+
