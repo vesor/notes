@@ -16,5 +16,5 @@ then mount it in linux https://chrismckee.co.uk/creating-mounting-new-drives-in-
 # run when system launch:
 	sudo vi /etc/rc.local
 	insert before the line "exit 0"
-	sh /usr/bin/python /usr/local/bin/ssserver -p 1733 -k password -m aes-256-cfb --user nobody -d start
+	sudo /usr/local/bin/ssserver -p 1733 -k password -m aes-256-cfb --user nobody -d start
 	sudo chmod +x /etc/rc.local
