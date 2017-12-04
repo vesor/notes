@@ -13,6 +13,6 @@
 	sudo chmod +x /etc/rc.local
 
 # use shadowsocks proxy for pip
-  install proxychains
-  add "socks5 127.0.0.1 1080" in /etc/proxychains.conf
-  you can use proxy now: proxychains pip install XXX
+  	install proxychains
+  	add "socks5 127.0.0.1 1080" in /etc/proxychains.conf
+  	you can use proxy now: proxychains pip install XXX
