@@ -15,4 +15,7 @@
 # use shadowsocks proxy for pip
   	install proxychains
   	add "socks5 127.0.0.1 1080" in /etc/proxychains.conf
-  	you can use proxy now: proxychains pip install XXX
+  	you can use proxy now: proxychains pip install XXXX
+
+# use mirror for pip
+	pip install -i https://pypi.doubanio.com/simple/ --trusted-host pypi.doubanio.com XXXX
