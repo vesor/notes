@@ -24,3 +24,9 @@ http://www.52nlp.cn/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%9C%8D%E5%8A%A1%E5%99
     sudo cp cuda/lib64/* /usr/local/cuda/lib64/
     sudo chmod a+r /usr/local/cuda/include/cudnn.h
     sudo chmod a+r /usr/local/cuda/lib64/*
+
+
+# Tensorflow with cuda9
+
+https://github.com/mind/wheels/releases/tag/tf1.4-gpu-cuda9
+
