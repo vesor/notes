@@ -33,3 +33,7 @@ https://github.com/mind/wheels/releases/tag/tf1.4-gpu-cuda9
 
 # Disable ECC is nvida-smi show 100% util with no process
         nvidia-smi -e 0
+
+# pip3 installed tensorflow-gpu use cudnn6
+        may need set export LD_LIBRARY_PATH=/usr/local/cuda/lib64
+        
