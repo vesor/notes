@@ -1,11 +1,13 @@
 # Install ubuntu 16.04:
-just format a udisk to fat32
-and copy all files from the ubuntu install iso
-then boot from udisk
+    use windows diskutil to compress disk C, to allocate space for linux
+    format a udisk to fat32
+    and copy all files to the udisk from the ubuntu install iso
+    reboot and go to bios, disable safe boot.
+    then boot from udisk
 
 (Bios hotkey: F9 to show boot list, F10 to go bios settings.)
 
-ACPI error:
+ACPI error when boot:
 Seems ubutun 16.04 doesn't support the ACPI on this motherboard,
 so must add "acpi=off" option when boot linux.
 See: https://askubuntu.com/questions/160036/how-do-i-disable-acpi-when-booting
