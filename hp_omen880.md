@@ -27,3 +27,6 @@ Seems before install cuda, "sudo apt-get update && sudo apt-get --assume-yes upg
 # Shadowsocks
 install shadowsocks-qt5 from github
 config shadowsocks-qt5 connection to https proxy (don't know why socks5 not working)
+
+# Proxy extension
+use SwitchOmega for both chrome and firefox, with GWList.
