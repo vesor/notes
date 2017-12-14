@@ -23,3 +23,7 @@ I installed cuda and then reboot, after the password input UI, it shows a line (
 Finally I figured out that *remove* "acpi=off" option makes it right. (WTF? I didn't see any related message, just guess.)
 
 Seems before install cuda, "sudo apt-get update && sudo apt-get --assume-yes upgrade" may fixed the acpi issue, so we need to enable acpi make it work.
+
+# Shadowsocks
+install shadowsocks-qt5 from github
+config shadowsocks-qt5 connection to https proxy (don't know why socks5 not working)
