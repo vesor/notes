@@ -8,6 +8,7 @@
 (Bios hotkey: F9 to show boot list, F10 to go bios settings.)
 
 ACPI error when boot:
+
 Seems ubutun 16.04 doesn't support the ACPI on this motherboard,
 so must add "acpi=off" option when boot linux.
 See: https://askubuntu.com/questions/160036/how-do-i-disable-acpi-when-booting
@@ -19,5 +20,6 @@ Shutdown cannot cutoff power automatically, you need manually press power button
 # After upgrade:
 I installed cuda and then reboot, after the password input UI, it shows a line (/dev/nvme0n1p5: clean, XXXXXXX) and then jump back to password input UI. Infinite loop!
 
-Finally I figured out that remove "acpi=off" option makes it right. (WTF? I didn't see any related message, just guess.)
+Finally I figured out that *remove* "acpi=off" option makes it right. (WTF? I didn't see any related message, just guess.)
+
 Seems before install cuda, "sudo apt-get update && sudo apt-get --assume-yes upgrade" may fixed the acpi issue, so we need to enable acpi make it work.
