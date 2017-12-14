@@ -2,7 +2,7 @@
     use windows diskutil to compress disk C, to allocate space for linux
     format a udisk to fat32
     and copy all files to the udisk from the ubuntu install iso
-    reboot and go to bios, disable safe boot.
+    reboot and go to bios, disable secure boot.
     then boot from udisk
 
 (Bios hotkey: F9 to show boot list, F10 to go bios settings.)
