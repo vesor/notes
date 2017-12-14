@@ -37,3 +37,7 @@ https://github.com/mind/wheels/releases/tag/tf1.4-gpu-cuda9
 # pip3 installed tensorflow-gpu use cudnn6
         may need set export LD_LIBRARY_PATH=/usr/local/cuda/lib64
         
+# may need this:
+        $ sudo apt-get install libcupti-dev
+        
+        
