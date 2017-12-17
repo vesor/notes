@@ -1,2 +1,2 @@
 # notes
-Write tech notes here, as #gist# would be blocked by GFW.
+Write tech notes here, since **gist** would be blocked by GFW.
