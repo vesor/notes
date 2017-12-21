@@ -16,4 +16,4 @@
       add control = Control_L Control_R
       add mod1 = Alt_L Meta_L
       
-      The restart X (reboot)
+      Then run xmodmap ~/.Xmodmap
