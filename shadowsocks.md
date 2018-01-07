@@ -22,3 +22,7 @@
 	
 See details in https://python.freelycode.com/contribution/detail/4
 
+# use proxy for pip
+	pip install --proxy=https://user@mydomain:port somepackage
+Note: it is **https://**
+
