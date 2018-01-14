@@ -26,3 +26,19 @@ note *d1* means max depth is 1. Don't use *chs*, it won't count hidden directori
       
 PyCharm issue:  Index file .PyCharmCE2017.3/system/caches/content.dat.storageData is too big.
 Use File -> Invidate Caches to invaidate and restart.
+
+
+# Config p4merge as external git diff tool
+
+      git config --global diff.tool p4merge
+      git config --global difftool.p4merge.cmd "~/Applications/p4v/bin/p4merge \$LOCAL \$REMOTE"
+
+Changes are made to your ~/.gitconfig:
+
+      [diff]
+          tool = p4merge
+      [difftool "p4merge"]
+          cmd = ~/Applications/p4v/bin/p4merge $LOCAL $REMOTE
+          
+Note you can't just run git diff myfile.txt you need to run git difftool myfile.txt
+
