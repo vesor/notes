@@ -5,7 +5,7 @@
       export LANGUAGE=en_US.UTF-8; export LANG=en_US.UTF-8; export LC_ALL=en_US.UTF-8; locale-gen en_US.UTF-8
       dpkg-reconfigure locales
 
-# Swap Left Ctrl and Alt
+# Swap Left Ctrl and Alt (seems not work well :( )
 
       Add ~/.Xmodmap
       
@@ -17,3 +17,12 @@
       add mod1 = Alt_L Meta_L
       
       Then run xmodmap ~/.Xmodmap
+
+# Disk usage:
+
+note *d1* means max depth is 1. *h* to show hidden files.
+
+      du -ahd1 | sort -h
+      
+PyCharm issue:  Index file .PyCharmCE2017.3/system/caches/content.dat.storageData is too big.
+Use File -> Invidate Caches to invaidate and restart.
