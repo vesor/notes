@@ -20,9 +20,9 @@
 
 # Disk usage:
 
-note *d1* means max depth is 1. *h* to show hidden files.
-
-      du -ahd1 | sort -h
+     du -ahd1 | sort -h
+note *d1* means max depth is 1. Don't use *chs*, it won't count hidden directories.
+ 
       
 PyCharm issue:  Index file .PyCharmCE2017.3/system/caches/content.dat.storageData is too big.
 Use File -> Invidate Caches to invaidate and restart.
