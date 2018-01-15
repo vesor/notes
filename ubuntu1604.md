@@ -59,3 +59,9 @@ This will copy all files in /folder/to/copy/ to /remote/folder in the remote ser
 
       rsync --progress --partial -avz /folder/to/copy user@remote.server:/remote/folder
       
+# Config VNC server on 14.04
+https://www.vultr.com/docs/how-to-install-vnc-desktop-on-ubuntu-14-04
+
+Start vncserver:
+
+      vncserver :1 -geometry 1440x900 -depth 16 -pixelformat rgb565
