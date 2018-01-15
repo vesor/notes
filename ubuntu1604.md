@@ -42,3 +42,20 @@ Changes are made to your ~/.gitconfig:
           
 Note you can't just run git diff myfile.txt you need to run git difftool myfile.txt
 
+# Use rsync to share folder between Mac and ubuntu
+From remote to local computer
+
+      rsync --progress --partial -avz user@remote.server:/folder/to/copy/ /local/folder
+      
+If you want to copy specific files, include it in the path.
+
+      rsync --progress --partial -v /path/to/file/file.ext user@remote.server:/remote/folder/
+
+From local to remote computer
+
+      rsync --progress --partial -avz /folder/to/copy/ user@remote.server:/remote/folder
+
+This will copy all files in /folder/to/copy/ to /remote/folder in the remote server, the folder copy itself will not be created in the remote computer, and only its contents will be copied, if you want the folder itself to also be created and then its contents copied inside the newly created copy folder, use this command.
+
+      rsync --progress --partial -avz /folder/to/copy user@remote.server:/remote/folder
+      
