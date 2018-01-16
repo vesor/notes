@@ -31,8 +31,11 @@ Run:
 
 
 ## For python3:
+
 remove CMakeCache.txt
+
 run cmake -D xxxxxxxxxx ( replace -D PYTHON_EXECUTABLE=/usr/bin/python3 )
+
 Run again:
 
     make -j12
