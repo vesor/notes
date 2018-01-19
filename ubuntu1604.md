@@ -65,3 +65,8 @@ https://www.vultr.com/docs/how-to-install-vnc-desktop-on-ubuntu-14-04
 Start vncserver:
 
       vncserver :1 -geometry 1440x900 -depth 16 -pixelformat rgb565
+
+# Command to view user of PID
+
+      ps -u -p 1234
+      
