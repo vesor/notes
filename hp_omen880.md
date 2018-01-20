@@ -30,3 +30,7 @@ config shadowsocks-qt5 connection to https proxy (don't know why socks5 not work
 
 # Proxy extension
 use SwitchOmega for both chrome and firefox, with GFWList.
+
+# Access ext4 in Win10
+ext2fsd
+
