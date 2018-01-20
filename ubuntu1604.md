@@ -70,3 +70,38 @@ Start vncserver:
 
       ps -u -p 1234
       
+# Backup partition and restore
+1) make a usb boot system
+
+copy all files from ubuntu iso to a usb disk.
+
+2) download partclone debs
+
+go to https://packages.ubuntu.com/ and search for partclone, download the deb and its dependency deb nilfs-tools
+
+put the deb files in somewhere in the usb disk.
+
+3) boot from usb disk
+
+select "Try ubuntu without install"
+
+use "sudo apt install ./xxxxx.deb" to install partclone and its dependencies.
+
+4) using partclone to back up and restore
+
+https://partclone.org/usage/
+
+clone /dev/hda1 to hda1.img and display debug information.
+   
+      partclone.ext4 -c -d -s /dev/hda1 -o hda1.img
+
+check part.img file is correct or not.
+   
+      partclone.chkimg -d -s partclone.img
+
+restore /dev/hda1 from hda1.img and display debug information.
+   
+      partclone.ext4 -r -d -s hda1.img -o /dev/hda1
+
+
+
