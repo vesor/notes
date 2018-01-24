@@ -106,5 +106,5 @@ restore /dev/hda1 from hda1.img and display debug information.
 
 # Live CD boot
 For omen880, need to add *acpi=off* in grub to boot.
-For the 6950K machine, need to add *nomodeset* in grub to book
+For the 6850K machine, need to add *nomodeset* in grub to boot.
 
