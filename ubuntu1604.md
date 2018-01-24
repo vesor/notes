@@ -104,4 +104,7 @@ restore /dev/hda1 from hda1.img and display debug information.
       partclone.ext4 -r -d -s hda1.img -o /dev/hda1
 
 
+# Live CD boot
+For omen880, need to add *acpi=off* in grub to boot.
+For the 6950K machine, need to add *nomodeset* in grub to book
 
