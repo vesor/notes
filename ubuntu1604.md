@@ -74,7 +74,7 @@ Start vncserver:
 # Backup partition and restore
 1) make a usb boot system
 
-copy all files from ubuntu iso to a usb disk.
+use ubuntu "Disks" gui tool, to restore the usb disk from a ubuntu iso.
 
 2) download partclone debs
 
