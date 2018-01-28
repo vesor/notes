@@ -109,3 +109,19 @@ restore /dev/hda1 from hda1.img and display debug information.
 For omen880, need to add *acpi=off* in grub to boot.
 For the 6850K machine, need to add *nomodeset* in grub to boot.
 
+# Copy large file to usb disk
+Stupid disk cache issue if you have large RAM.
+https://unix.stackexchange.com/a/107722/94334
+
+      sudo -i
+
+      echo $((16*1024*1024)) > /proc/sys/vm/dirty_background_bytes
+      echo $((48*1024*1024)) > /proc/sys/vm/dirty_bytes
+
+To retore back:
+
+      echo 0 > /proc/sys/vm/dirty_background_bytes
+      echo 0 > /proc/sys/vm/dirty_bytes
+
+
+
