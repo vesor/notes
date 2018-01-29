@@ -19,3 +19,15 @@ https://github.com/caffe2/caffe2/issues/1789
 Change the CMakeLists.txt:
 option(USE_NATIVE_ARCH "Use -march=native" OFF) 
 Set to "ON"
+
+# Specify your own OpenCV path
+modify cmake/Dependencies.cmake, comment out the find opencv stuff, and add following:
+
++  set(OPENCV_PATH /usr/local/opencv320)
++  caffe2_include_directories(${OPENCV_PATH}/include)
++  list(APPEND Caffe2_DEPENDENCY_LIBS ${OPENCV_PATH}/lib/libopencv_core.so)
++  list(APPEND Caffe2_DEPENDENCY_LIBS ${OPENCV_PATH}/lib/libopencv_highgui.so)
++  list(APPEND Caffe2_DEPENDENCY_LIBS ${OPENCV_PATH}/lib/libopencv_imgproc.so)
++  list(APPEND Caffe2_DEPENDENCY_LIBS ${OPENCV_PATH}/lib/libopencv_imgcodecs.so)
+
+
