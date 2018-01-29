@@ -26,3 +26,8 @@ See details in https://python.freelycode.com/contribution/detail/4
 	pip install --proxy=https://user@mydomain:port somepackage
 Note: it is **https://**
 
+# use proxy for apt-get
+You can place the following in /etc/apt/apt.conf
+	
+	Acquire::http::Proxy "http://proxy.server.port:8080";
+
