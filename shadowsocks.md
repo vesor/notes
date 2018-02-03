@@ -15,7 +15,11 @@
 # ru ss client in local (socks5):
 
 	sslocal -s 00.00.000.00 -p 1733  -l 1080 -k passwd
+
+run sslocal as service:
+https://gist.github.com/ygmpkk/757b89cbe6f911656ddb
 	
+
 Then you can convert socks5 to http: 
 https://github.com/shadowsocks/shadowsocks/wiki/Convert-Shadowsocks-into-an-HTTP-proxy
 	
