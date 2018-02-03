@@ -15,6 +15,14 @@
 # ru ss client in local (socks5):
 
 	sslocal -s 00.00.000.00 -p 1733  -l 1080 -k passwd
+	
+Then you can convert socks5 to http: 
+https://github.com/shadowsocks/shadowsocks/wiki/Convert-Shadowsocks-into-an-HTTP-proxy
+	
+	apt-get install polipo
+	service polipo stop
+	polipo socksParentProxy=localhost:1080
+	http_proxy=http://localhost:8123 curl www.google.com
 
 # use shadowsocks proxy for pip
   	install proxychains
