@@ -18,6 +18,23 @@
 
 run sslocal as service:
 https://gist.github.com/ygmpkk/757b89cbe6f911656ddb
+create a file /etc/systemd/system/sslocal.service:
+
+	[Unit]
+	Description=Daemon to start Shadowsocks Client
+	Wants=network-online.target
+	After=network.target
+
+	[Service]
+	Type=simple
+	ExecStart=/usr/bin/sslocal -c /etc/shadowsocks/client.json --pid-file /var/run/sslocal.pid --log-file /var/log/sslocal.log   
+
+	[Install]
+	WantedBy=multi-user.target
+
+Then enable service:
+
+	systemctl enable sslocal
 	
 
 Then you can convert socks5 to http: 
