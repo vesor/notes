@@ -44,8 +44,13 @@ https://github.com/shadowsocks/shadowsocks/wiki/Convert-Shadowsocks-into-an-HTTP
 	service polipo stop
 	polipo socksParentProxy=localhost:1080
 	http_proxy=http://localhost:8123 curl www.google.com
-	
+
+More configurations:
 https://wiki.archlinux.org/index.php/polipo
+Modify /etc/polipo/config:
+	
+	socksParentProxy = localhost:1080
+	socksProxyType = socks5
 
 # use shadowsocks proxy for pip
   	install proxychains
