@@ -14,10 +14,11 @@
 
 # ru ss client in local (socks5):
 
-	sslocal -s 00.00.000.00 -p 1733  -l 1080 -k passwd
+	sslocal -s 00.00.000.00 -p 1733  -l 3128 -k passwd -m aes-256-cfb
 
 run sslocal as service:
 https://gist.github.com/ygmpkk/757b89cbe6f911656ddb
+
 create a file /etc/systemd/system/sslocal.service:
 
 	[Unit]
@@ -27,7 +28,7 @@ create a file /etc/systemd/system/sslocal.service:
 
 	[Service]
 	Type=simple
-	ExecStart=/usr/bin/sslocal -c /etc/shadowsocks/client.json --pid-file /var/run/sslocal.pid --log-file /var/log/sslocal.log   
+	ExecStart=/usr/local/bin/sslocal -s 00.00.000.00 -p 1733  -l 3128 -k passwd -m aes-256-cfb   
 
 	[Install]
 	WantedBy=multi-user.target
@@ -47,10 +48,12 @@ https://github.com/shadowsocks/shadowsocks/wiki/Convert-Shadowsocks-into-an-HTTP
 
 More configurations:
 https://wiki.archlinux.org/index.php/polipo
+
 Modify /etc/polipo/config:
 	
 	socksParentProxy = localhost:1080
 	socksProxyType = socks5
+	proxyport = 1080
 
 # use shadowsocks proxy for pip
   	install proxychains
