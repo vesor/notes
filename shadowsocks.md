@@ -55,10 +55,11 @@ Modify /etc/polipo/config:
 	socksProxyType = socks5
 	proxyport = 1080
 
-# use shadowsocks proxy for pip
-  	install proxychains
-  	add "socks5 127.0.0.1 1080" in /etc/proxychains.conf
-  	you can use proxy now: proxychains pip install XXXX
+# use shadowsocks proxy for git clone
+  	git config --global http.proxy 'socks5://127.0.0.1:3128'
+	git config --global https.proxy 'socks5://127.0.0.1:3128'
+	
+The config is in ~/.gitconfig
 
 # use mirror for pip
 	pip install -i https://pypi.doubanio.com/simple/ --trusted-host pypi.doubanio.com XXXX
