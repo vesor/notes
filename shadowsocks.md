@@ -43,15 +43,13 @@ https://github.com/shadowsocks/shadowsocks/wiki/Convert-Shadowsocks-into-an-HTTP
 	
 	apt-get install polipo
 	service polipo stop
-	polipo socksParentProxy=localhost:1080
-	http_proxy=http://localhost:8123 curl www.google.com
 
 More configurations:
 https://wiki.archlinux.org/index.php/polipo
 
 Modify /etc/polipo/config:
 	
-	socksParentProxy = localhost:1080
+	socksParentProxy = localhost:3128
 	socksProxyType = socks5
 	proxyport = 1080
 
@@ -73,5 +71,5 @@ Note: it is **https://**
 # use proxy for apt-get
 You can place the following in /etc/apt/apt.conf
 	
-	Acquire::http::Proxy "http://proxy.server.port:8080";
+	Acquire::http::Proxy "http://localhost:1080";
 
