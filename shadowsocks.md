@@ -71,5 +71,5 @@ Note: it is **https://**
 # use proxy for apt-get
 You can place the following in /etc/apt/apt.conf
 	
-	Acquire::http::Proxy "http://localhost:1080";
+	Acquire::http::Proxy "http://localhost:1080/";
 
