@@ -1,3 +1,7 @@
+Running DIGITS on Nvidia Docker
+
+    nvidia-docker run -v <path to data>:/data/ -p 5000:5000 nvidia/digits:latest
+
 List all containers (only IDs)
 
     docker ps -aq
