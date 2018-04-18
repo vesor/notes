@@ -13,3 +13,8 @@ Remove all containers
 Remove all images
 
     docker rmi $(docker images -q)
+
+Run bash on a container
+
+    docker exec -it 1c76f7912221 /bin/bash
+    
