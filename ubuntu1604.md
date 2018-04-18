@@ -129,4 +129,7 @@ To retore back:
       echo 0 > /proc/sys/vm/dirty_bytes
 
 
+# Find files exclude directory
+find . -path ./misc -prune -o -name '*.txt' -print
+
 
