@@ -12,3 +12,8 @@ you need to use cmake to build it first
 
 ## convert avi to h264
     ffmpeg -i stereo.avi -c:v libx264 -crf 23 out.h264
+
+## split left and right video
+
+    ffmpeg -i out.h264 -filter:v "crop=672:376:0:0" left.h264
+    ffmpeg -i out.h264 -filter:v "crop=672:376:672:0" right.h264
