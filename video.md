@@ -21,3 +21,5 @@ you need to use cmake to build it first
 ## extract frames from video
 
     ffmpeg -i video.h264 thumb%04d.jpg
+    ffmpeg -i video.h264 -vf fps=1 thumb%04d.jpg #retreive 1 frame per second
+    
