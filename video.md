@@ -17,3 +17,7 @@ you need to use cmake to build it first
 
     ffmpeg -i out.h264 -filter:v "crop=672:376:0:0" left.h264
     ffmpeg -i out.h264 -filter:v "crop=672:376:672:0" right.h264
+
+## extract frames from video
+
+    ffmpeg -i video.h264 thumb%04d.jpg
