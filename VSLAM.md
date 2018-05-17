@@ -19,6 +19,8 @@ Not tried, but I guess the method based on optical flow/ photometric error (inte
 
 ## reference
 视觉SLAM十四讲
+https://zhuanlan.zhihu.com/p/28574164
+
 
 
 ## plan
