@@ -11,7 +11,7 @@ Guesses: 1) KITTI use point gray camera with global shutter, while my Sekonix AR
 3) The handcrafted ORB feature extractor is unstable and only tuned for KITTI dataset
 
 #### LSD-SLAM:
-Not tried, but I guess the method based on optical flow/ photometric error should also be unstable.
+Not tried, but I guess the method based on optical flow/ photometric error (intensity gradients) should also be unstable.
 
 #### Deep learning way?
 #### VIO?
