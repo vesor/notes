@@ -42,3 +42,6 @@ http://m.cheyun.com/content/19418　
 在纵目自主泊车1.0~2.0的阶段，该系统所搭载的传感器只有4路环视摄像头、单/双目前视摄像头、IMU、4轮转动脉冲、方向盘转角、GPS传感器、超声波雷达，迭代到3.0可能会考虑增加毫米波雷达
 http://img.cy-cdn.com/w3/1405/large/15120901891405.jpg
 
+http://www.ldv.co/blog/2018/3/5/autox-is-democratizing-autonomous-driving-with-a-camera-first-solution
+AutoX, camera first solution.
+
