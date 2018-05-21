@@ -24,6 +24,8 @@ https://zhuanlan.zhihu.com/p/28574164
 
 https://github.com/kanster/awesome-slam
 
+https://www.zhihu.com/question/50385799
+
 
 ## plan
 computer vision: stereo vision, VIO, VSLAM, camera localization in lidar maps, fuzzy map
