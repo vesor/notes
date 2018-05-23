@@ -19,13 +19,13 @@ Not tried, but I guess the method based on optical flow/ photometric error (inte
 ## reference
 视觉SLAM十四讲
 
-https://zhuanlan.zhihu.com/p/28574164
+https://zhuanlan.zhihu.com/p/28574164　ＳＬＡＭ入门
 
 https://github.com/kanster/awesome-slam
 
-https://www.zhihu.com/question/50385799
+https://www.zhihu.com/question/50385799  单目SLAM在移动端应用的实现难点有哪些？
 
-https://github.com/liulinbo/slam
+https://github.com/liulinbo/slam SLAM资料汇总
 
 
 ## plan
