@@ -8,6 +8,9 @@ Seems fine on my recorded video. (Fix initializing issue: https://github.com/rau
 Guesses: 1) KITTI use point gray camera with global shutter, while my Sekonix AR0231 camera is rolling shutter. 
 2) My calibartion / times.txt is wrong?
 
+#### TODO: 
+1) timestamp of video frame
+2) calibration
 
 #### LSD-SLAM:
 Not tried, but I guess the method based on optical flow/ photometric error (intensity gradients) should also be unstable.
