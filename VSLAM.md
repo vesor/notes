@@ -15,6 +15,7 @@ Not tried, but I guess the method based on optical flow/ photometric error (inte
 #### Deep learning way?
 #### VIO?
 #### Performance on DrivePX2
+#### Test Localization Only
 
 ## reference
 视觉SLAM十四讲
