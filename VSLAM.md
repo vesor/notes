@@ -8,6 +8,10 @@ Seems fine on my recorded video. (Fix initializing issue: https://github.com/rau
 Guesses: 1) KITTI use point gray camera with global shutter, while my Sekonix AR0231 camera is rolling shutter. 
 2) My calibartion / times.txt is wrong?
 
+Note about installation on Drive PX2:
+1) For Pangolin: need link to /usr/lib/libGL.so instead of mesa/libGL.so, refer to https://devtalk.nvidia.com/default/topic/946136/building-an-opengl-application/?offset=8
+
+
 #### TODO: 
 1) timestamp of video frame
 2) calibration
