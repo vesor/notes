@@ -35,6 +35,8 @@ https://www.zhihu.com/question/50385799  单目SLAM在移动端应用的实现�
 
 https://github.com/liulinbo/slam SLAM资料汇总
 
+Image Post processing: http://graphics.stanford.edu/courses/cs178-11/lectures/post-processing-05may11.pdf
+
 
 ## plan
 computer vision: stereo vision, VIO, VSLAM, camera localization in lidar maps, fuzzy map
