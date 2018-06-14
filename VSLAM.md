@@ -60,3 +60,7 @@ http://img.cy-cdn.com/w3/1405/large/15120901891405.jpg
 http://www.ldv.co/blog/2018/3/5/autox-is-democratizing-autonomous-driving-with-a-camera-first-solution
 AutoX, camera first solution.
 
+## DEEP LEARNING
+
+https://devblogs.nvidia.com/int8-inference-autonomous-vehicles-tensorrt/
+
