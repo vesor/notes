@@ -51,7 +51,10 @@ Modify /etc/polipo/config:
 	
 	socksParentProxy = localhost:3128
 	socksProxyType = socks5
-	proxyport = 1080
+	proxyAddress = "::0"        # both IPv4 and IPv6
+	# or IPv4 only
+	# proxyAddress = "0.0.0.0"
+	proxyPort = 1080
 
 # use shadowsocks proxy for git clone
   	git config --global http.proxy 'socks5://127.0.0.1:3128'
