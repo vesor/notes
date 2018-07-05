@@ -28,3 +28,9 @@
 
 
         # Open chrome, go chrome://tracing, load the json file
+
+## specify gpu/cpu to run
+
+        CUDA_VISIBLE_DEVICES="" python my_tf.py # no cuda, run on cpu
+        CUDA_VISIBLE_DEVICES="0" # run on gpu 0
+        
