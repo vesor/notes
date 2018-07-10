@@ -7,7 +7,7 @@ https://github.com/ApolloAuto/apollo
 
 1000x750.jpg
 
-|   | GTX1080Ti |   |   |   |
+|   | GTX1080Ti @ 1.58 GHz/i7-8700K CPU @ 3.70GHz |   |   |   |
 |---|---|---|---|---|
 | tensorflow model/object_detection: ssd_mobilenet_v1_coco_2017_11_17 | 28ms |   |   |   |
 | tensorflow model/object_detection: ssd_mobilenet_v1_coco_2018_01_28 | 15ms |   |   |   |
