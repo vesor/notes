@@ -30,7 +30,7 @@ https://github.com/ApolloAuto/apollo
 | MULTI_THREADING: False   SPLIT_MODEL: False | | | 22ms | 150ms |
 | py-faster-rcnn, ZF | | | 42ms |  |
 | py-faster-rcnn, VGG16 | | | 97ms |  |
-| tensorrt faster RCNN (VGG16) | | | 90ms |  |
+| tensorrt faster RCNN (VGG16) | | | 90ms | 270ms |
 
 
 
