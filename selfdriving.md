@@ -1,6 +1,3 @@
-https://github.com/CPFL/Autoware
-https://github.com/ApolloAuto/apollo
-
 
 ## Perf compare
 
@@ -32,5 +29,12 @@ https://github.com/ApolloAuto/apollo
 | py-faster-rcnn, VGG16 | | | 97ms |  | |
 | tensorrt faster RCNN (VGG16) | | | 90ms | 270ms | |
 
+
+
+### selfdriving projects
+
+https://github.com/CPFL/Autoware
+
+https://github.com/ApolloAuto/apollo
 
 
