@@ -25,6 +25,12 @@
 | realtime_object_detection (ssd_mobilenet_v11_coco) |
 | MULTI_THREADING: False   SPLIT_MODEL: True | 8-10ms | | 12ms | 41-46ms | 58-60ms |
 | MULTI_THREADING: False   SPLIT_MODEL: False | 15-17ms | | 22ms | 144-157ms | 148-160ms |
+| realtime_object_detection (ssd_mobilenet_v1_coco_2017_11_17) |
+| MULTI_THREADING: False   SPLIT_MODEL: True | 11-13ms | |  |  |  |
+| MULTI_THREADING: False   SPLIT_MODEL: False | 28-30ms | |  |  |  |
+| realtime_object_detection (ssd_mobilenet_v1_coco_2018_01_28) |
+| MULTI_THREADING: False   SPLIT_MODEL: True | xxx | |  |  |  |
+| MULTI_THREADING: False   SPLIT_MODEL: False | 14-15ms | |  |  |  |
 | py-faster-rcnn, ZF | | | 42ms |  | |
 | py-faster-rcnn, VGG16 | | | 97ms |  | |
 | tensorrt faster RCNN (VGG16) | | | 90ms | 270ms | |
