@@ -28,7 +28,8 @@
 | py-faster-rcnn, ZF | | | 42ms |  | |
 | py-faster-rcnn, VGG16 | | | 97ms |  | |
 | tensorrt faster RCNN (VGG16) | | | 90ms | 270ms | |
-
+| tensorflow model/deeplab |
+| deeplabv3_mnv2_pascal_train_aug_2018_01_29 | ms |   | 34ms  | 100ms  | 213ms |
 
 
 ### selfdriving projects
