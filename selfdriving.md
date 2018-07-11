@@ -18,7 +18,7 @@ https://github.com/ApolloAuto/apollo
 
 
 |   | GTX1080Ti PC1 | GTX1080Ti PC2 | GTX1070 Notebook | Drive PX2 dGPU | Drive PX2 iGPU |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | tensorflow model/object_detection |
 | ssd_mobilenet_v1_coco_2017_11_17 | 28ms |   | 40-45ms  | 300-330ms  | |
 | ssd_mobilenet_v1_coco_2018_01_28 | 15ms |   | 19-24ms  | 120-150ms  | |
