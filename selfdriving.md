@@ -26,8 +26,8 @@ https://github.com/ApolloAuto/apollo
 | faster_rcnn_inception_v2_coco_2018_01_28 | 31-38ms |   |   |   | |
 | faster_rcnn_resnet50_coco_2018_01_28 | 50-54ms |   | 83-90ms  | 313-337ms  | |
 | realtime_object_detection (ssd_mobilenet_v11_coco) |
-| MULTI_THREADING: False   SPLIT_MODEL: True | | | 12ms | 44ms | 58-60ms |
-| MULTI_THREADING: False   SPLIT_MODEL: False | | | 22ms | 150ms | |
+| MULTI_THREADING: False   SPLIT_MODEL: True | | | 12ms | 41-46ms | 58-60ms |
+| MULTI_THREADING: False   SPLIT_MODEL: False | | | 22ms | 144-157ms | 148-160ms |
 | py-faster-rcnn, ZF | | | 42ms |  | |
 | py-faster-rcnn, VGG16 | | | 97ms |  | |
 | tensorrt faster RCNN (VGG16) | | | 90ms | 270ms | |
