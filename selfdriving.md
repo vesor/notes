@@ -21,8 +21,8 @@ https://github.com/ApolloAuto/apollo
 |---|---|---|---|---|---|
 | tensorflow model/object_detection |
 | ssd_mobilenet_v1_coco_2017_11_17 | 28ms |   | 40-45ms  | 300-330ms  | |
-| ssd_mobilenet_v1_coco_2018_01_28 | 15ms |   | 19-24ms  | 120-150ms  | |
-| ssd_mobilenet_v2_coco_2018_03_29 | 18ms |   | 23-30ms  | 120-150ms  | |
+| ssd_mobilenet_v1_coco_2018_01_28 | 15ms |   | 19-24ms  | 120-150ms  | 134-160ms |
+| ssd_mobilenet_v2_coco_2018_03_29 | 18ms |   | 23-30ms  | 120-150ms  | 174-200ms |
 | faster_rcnn_inception_v2_coco_2018_01_28 | 31-38ms |   |   |   | |
 | faster_rcnn_resnet50_coco_2018_01_28 | 50-54ms |   | 83-90ms  | 313-337ms  | |
 | realtime_object_detection (ssd_mobilenet_v11_coco) |
