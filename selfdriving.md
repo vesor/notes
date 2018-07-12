@@ -38,6 +38,25 @@
 | deeplabv3_mnv2_pascal_train_aug_2018_01_29 | ms |   | 34ms  | 100ms  | 213ms |
 
 
+
+### Notes
+
+tensorflow models/object_detection
+
+1) Export to frozen graph:
+
+remember to add PYTHONPATH
+
+model.ckpt is perfix for model.ckpt.xxxxx files
+
+python object_detection/export_inference_graph.py \
+    --input_type=image_tensor \
+    --pipeline_config_path=object_detection/export_models/ssd_mobilenet_v1_coco_2018_01_28/pipeline.config \
+    --trained_checkpoint_prefix=object_detection/export_models/ssd_mobilenet_v1_coco_2018_01_28/model.ckpt \
+    --output_directory=object_detection/export_models
+
+
+
 ### selfdriving projects
 
 https://github.com/CPFL/Autoware
