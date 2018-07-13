@@ -23,3 +23,7 @@ you need to use cmake to build it first
     ffmpeg -i video.h264 %06d.png
     ffmpeg -i video.h264 -vf fps=1 %06d.png #retreive 1 frame per second
     
+## split video by time
+
+    ffmpeg -i source-file.foo -ss 600 -t 600 second-10-min.m4v
+    
