@@ -12,6 +12,14 @@
 | CPU | i7-8700K @ 3.70GHz | i7-6850K @ 3.60GHz |  i7-7700HQ @ 2.80GHz | arm  | arm |
 
 
+tensorflow model/object_detection
+
+https://github.com/tensorflow/models/tree/master/research/object_detection
+
+realtime_object_detection
+
+https://github.com/GustavZ/realtime_object_detection
+
 
 
 |   | GTX1080Ti PC1 | GTX1080Ti PC2 | GTX1070 Notebook | Drive PX2 dGPU | Drive PX2 iGPU |
@@ -29,7 +37,7 @@
 | MULTI_THREADING: False   SPLIT_MODEL: True | 11-13ms | |  |  |  |
 | MULTI_THREADING: False   SPLIT_MODEL: False | 28-30ms | |  |  |  |
 | realtime_object_detection (ssd_mobilenet_v1_coco_2018_01_28) |
-| MULTI_THREADING: False   SPLIT_MODEL: True | xxx | |  |  |  |
+| MULTI_THREADING: False   SPLIT_MODEL: True | 9-10ms | |  |  |  |
 | MULTI_THREADING: False   SPLIT_MODEL: False | 14-15ms | |  |  |  |
 | py-faster-rcnn, ZF | | | 42ms |  | |
 | py-faster-rcnn, VGG16 | | | 97ms |  | |
