@@ -37,7 +37,7 @@ https://github.com/GustavZ/realtime_object_detection
 | MULTI_THREADING: False   SPLIT_MODEL: True | 11-13ms | |  |  |  |
 | MULTI_THREADING: False   SPLIT_MODEL: False | 28-30ms | |  |  |  |
 | realtime_object_detection (ssd_mobilenet_v1_coco_2018_01_28) |
-| MULTI_THREADING: False   SPLIT_MODEL: True | 9-10ms | |  |  |  |
+| MULTI_THREADING: False   SPLIT_MODEL: True | 8-10ms | |  |  |  |
 | MULTI_THREADING: False   SPLIT_MODEL: False | 14-15ms | |  |  |  |
 | py-faster-rcnn, ZF | | | 42ms |  | |
 | py-faster-rcnn, VGG16 | | | 97ms |  | |
