@@ -104,6 +104,8 @@ python object_detection/export_inference_graph.py \
 
 https://github.com/MaybeShewill-CV/lanenet-lane-detection
 
+https://github.com/SeokjuLee/VPGNet
+
 
 ### selfdriving projects
 
