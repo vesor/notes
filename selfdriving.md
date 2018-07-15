@@ -106,6 +106,14 @@ https://github.com/MaybeShewill-CV/lanenet-lane-detection
 
 https://github.com/SeokjuLee/VPGNet
 
+https://github.com/experiencor/semantic-lane-detection
+
+https://www.mapillary.com/
+
+https://arxiv.org/pdf/1807.01726.pdf
+
+
+
 
 ### selfdriving projects
 
