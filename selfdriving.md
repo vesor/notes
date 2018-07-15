@@ -1,8 +1,8 @@
 
-## Perf compare
+## Speed compare
 
 
-1000x750.jpg
+Image used: 1000x750.jpg
 
 | |  GTX1080Ti | GTX1080Ti | GTX1070 | Drive PX2 dGPU | Drive PX2 iGPU
 |---|---|---|---|---|---|
@@ -52,6 +52,9 @@ Proj: deeplab
 | Abbr | Model |
 |---|---|
 | v3_pascal | deeplabv3_mnv2_pascal_train_aug_2018_01_29 |
+
+
+
 
 
 
