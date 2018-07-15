@@ -18,6 +18,7 @@ tensorflow model/object_detection
 https://github.com/tensorflow/models/tree/master/research/object_detection
 
 Proj: tfod
+
 | Abbr | Model |
 |---|---|
 | ssd_mobile_v1_2017 | ssd_mobilenet_v1_coco_2017_11_17 |
@@ -32,6 +33,7 @@ realtime_object_detection
 https://github.com/GustavZ/realtime_object_detection
 
 Proj: rtod
+
 | Abbr | Config | Model |
 |---|---|---|
 | ssd_mobilenet_v11 split | MULTI_THREADING: False   SPLIT_MODEL: True | ssd_mobilenet_v11_coco |
@@ -46,6 +48,7 @@ tensorflow model/deeplab
 https://github.com/tensorflow/models/tree/master/research/deeplab
 
 Proj: deeplab
+
 | Abbr | Model |
 |---|---|
 | v3_pascal | deeplabv3_mnv2_pascal_train_aug_2018_01_29 |
