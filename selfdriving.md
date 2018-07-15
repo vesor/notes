@@ -56,28 +56,29 @@ Proj: deeplab
 
 
 
-
+Detail table
 
 |   | GTX1080Ti PC1 | GTX1080Ti PC2 | GTX1070 Notebook | Drive PX2 dGPU | Drive PX2 iGPU |
 |---|---|---|---|---|---|
-| tensorflow model/object_detection |
+| tensorflow model/object_detection |---|
 | tfod ssd_mobile_v1_2017 | 28ms |   | 40-45ms  | 300-330ms  | |
 | tfod ssd_mobile_v1_2018 | 15ms |   | 19-24ms  | 120-150ms  | 134-160ms |
 | tfod ssd_mobile_v2_2018 | 18ms |   | 23-30ms  | 120-150ms  | 174-200ms |
 | tfod frcnn_inception_v2 | 31-38ms |   |   |   | |
 | tfod frcnn_resnet50 | 50-54ms |   | 83-90ms  | 313-337ms  | |
-| realtime_object_detection |
+| realtime_object_detection |---|
 | ssd_mobilenet_v11 split | 8-10ms | | 12ms | 41-46ms | 58-60ms |
 | ssd_mobilenet_v11 nosplit | 15-17ms | | 22ms | 144-157ms | 148-160ms |
 | ssd_mobilenet_v1_2017 split | 11-13ms | |  |  |  |
 | ssd_mobilenet_v1_2017 nosplit | 28-30ms | |  |  |  |
 | ssd_mobilenet_v1_2018 split | 8-10ms | |  |  |  |
 | ssd_mobilenet_v1_2018 nosplit | 14-15ms | |  |  |  |
-| py-faster-rcnn |
+| py-faster-rcnn |---|
 | ZF | | | 42ms |  | |
 | VGG16 | | | 97ms |  | |
-| tensorrt faster RCNN (VGG16) | | | 90ms | 270ms | |
-| tensorflow model/deeplab |
+| tensorrt sample |---|
+| faster RCNN (VGG16) | | | 90ms | 270ms | |
+| tensorflow model/deeplab |---|
 | v3_pascal | xx |   | 34ms  | 100ms  | 213ms |
 
 
