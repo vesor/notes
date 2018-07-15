@@ -17,13 +17,8 @@ tensorflow model/object_detection
 
 https://github.com/tensorflow/models/tree/master/research/object_detection
 
-| |  GTX1080Ti | GTX1080Ti |
+| Proj | Abbr | Model |
 |---|---|---|
-
-
-| Proj | Abbr | Model |
-| Proj | Abbr | Model |
-
 | tfod | ssd_mobile_v1_2017 | ssd_mobilenet_v1_coco_2017_11_17 |
 | tfod | ssd_mobile_v1_2018 | ssd_mobilenet_v1_coco_2018_01_28 |
 | tfod | ssd_mobile_v2_2018 | ssd_mobilenet_v2_coco_2018_03_29 |
@@ -36,6 +31,7 @@ realtime_object_detection
 https://github.com/GustavZ/realtime_object_detection
 
 | Proj | Abbr | Config | Model |
+|---|---|---|---|
 | rtod | ssd_mobilenet_v11 split | MULTI_THREADING: False   SPLIT_MODEL: True | ssd_mobilenet_v11_coco |
 | rtod | ssd_mobilenet_v11 nosplit | MULTI_THREADING: False   SPLIT_MODEL: False | ssd_mobilenet_v11_coco |
 | rtod | ssd_mobilenet_v1_2017 split | MULTI_THREADING: False   SPLIT_MODEL: True | ssd_mobilenet_v1_coco_2017_11_17 |
