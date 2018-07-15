@@ -18,6 +18,8 @@ tensorflow model/object_detection
 https://github.com/tensorflow/models/tree/master/research/object_detection
 
 | Proj | Abbr | Model |
+| Proj | Abbr | Model |
+
 | tfod | ssd_mobile_v1_2017 | ssd_mobilenet_v1_coco_2017_11_17 |
 | tfod | ssd_mobile_v1_2018 | ssd_mobilenet_v1_coco_2018_01_28 |
 | tfod | ssd_mobile_v2_2018 | ssd_mobilenet_v2_coco_2018_03_29 |
