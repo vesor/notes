@@ -17,27 +17,40 @@ tensorflow model/object_detection
 
 https://github.com/tensorflow/models/tree/master/research/object_detection
 
-| Proj | Abbr | Model |
-|---|---|---|
-| tfod | ssd_mobile_v1_2017 | ssd_mobilenet_v1_coco_2017_11_17 |
-| tfod | ssd_mobile_v1_2018 | ssd_mobilenet_v1_coco_2018_01_28 |
-| tfod | ssd_mobile_v2_2018 | ssd_mobilenet_v2_coco_2018_03_29 |
-| tfod | frcnn_inception_v2 | faster_rcnn_inception_v2_coco_2018_01_28 |
-| tfod | frcnn_resnet50 | faster_rcnn_resnet50_coco_2018_01_28 |
+Proj: tfod
+| Abbr | Model |
+|---|---|
+| ssd_mobile_v1_2017 | ssd_mobilenet_v1_coco_2017_11_17 |
+| ssd_mobile_v1_2018 | ssd_mobilenet_v1_coco_2018_01_28 |
+| ssd_mobile_v2_2018 | ssd_mobilenet_v2_coco_2018_03_29 |
+| frcnn_inception_v2 | faster_rcnn_inception_v2_coco_2018_01_28 |
+| frcnn_resnet50 | faster_rcnn_resnet50_coco_2018_01_28 |
 
 
 realtime_object_detection
 
 https://github.com/GustavZ/realtime_object_detection
 
-| Proj | Abbr | Config | Model |
-|---|---|---|---|
-| rtod | ssd_mobilenet_v11 split | MULTI_THREADING: False   SPLIT_MODEL: True | ssd_mobilenet_v11_coco |
-| rtod | ssd_mobilenet_v11 nosplit | MULTI_THREADING: False   SPLIT_MODEL: False | ssd_mobilenet_v11_coco |
-| rtod | ssd_mobilenet_v1_2017 split | MULTI_THREADING: False   SPLIT_MODEL: True | ssd_mobilenet_v1_coco_2017_11_17 |
-| rtod | ssd_mobilenet_v1_2017 nosplit | MULTI_THREADING: False   SPLIT_MODEL: False | ssd_mobilenet_v1_coco_2017_11_17 |
-| rtod | ssd_mobilenet_v1_2018 split | MULTI_THREADING: False   SPLIT_MODEL: True | ssd_mobilenet_v1_coco_2018_01_28 |
-| rtod | ssd_mobilenet_v1_2018 nosplit | MULTI_THREADING: False   SPLIT_MODEL: False | ssd_mobilenet_v1_coco_2018_01_28 |
+Proj: rtod
+| Abbr | Config | Model |
+|---|---|---|
+| ssd_mobilenet_v11 split | MULTI_THREADING: False   SPLIT_MODEL: True | ssd_mobilenet_v11_coco |
+| ssd_mobilenet_v11 nosplit | MULTI_THREADING: False   SPLIT_MODEL: False | ssd_mobilenet_v11_coco |
+| ssd_mobilenet_v1_2017 split | MULTI_THREADING: False   SPLIT_MODEL: True | ssd_mobilenet_v1_coco_2017_11_17 |
+| ssd_mobilenet_v1_2017 nosplit | MULTI_THREADING: False   SPLIT_MODEL: False | ssd_mobilenet_v1_coco_2017_11_17 |
+| ssd_mobilenet_v1_2018 split | MULTI_THREADING: False   SPLIT_MODEL: True | ssd_mobilenet_v1_coco_2018_01_28 |
+| ssd_mobilenet_v1_2018 nosplit | MULTI_THREADING: False   SPLIT_MODEL: False | ssd_mobilenet_v1_coco_2018_01_28 |
+
+tensorflow model/deeplab
+
+https://github.com/tensorflow/models/tree/master/research/deeplab
+
+Proj: deeplab
+| Abbr | Model |
+|---|---|
+| v3_pascal | deeplabv3_mnv2_pascal_train_aug_2018_01_29 |
+
+
 
 |   | GTX1080Ti PC1 | GTX1080Ti PC2 | GTX1070 Notebook | Drive PX2 dGPU | Drive PX2 iGPU |
 |---|---|---|---|---|---|
@@ -54,11 +67,12 @@ https://github.com/GustavZ/realtime_object_detection
 | ssd_mobilenet_v1_2017 nosplit | 28-30ms | |  |  |  |
 | ssd_mobilenet_v1_2018 split | 8-10ms | |  |  |  |
 | ssd_mobilenet_v1_2018 nosplit | 14-15ms | |  |  |  |
-| py-faster-rcnn, ZF | | | 42ms |  | |
-| py-faster-rcnn, VGG16 | | | 97ms |  | |
+| py-faster-rcnn |
+| ZF | | | 42ms |  | |
+| VGG16 | | | 97ms |  | |
 | tensorrt faster RCNN (VGG16) | | | 90ms | 270ms | |
 | tensorflow model/deeplab |
-| deeplabv3_mnv2_pascal_train_aug_2018_01_29 | ms |   | 34ms  | 100ms  | 213ms |
+| v3_pascal | xx |   | 34ms  | 100ms  | 213ms |
 
 
 
