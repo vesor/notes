@@ -37,6 +37,12 @@ Image used: 1000x750.jpg
 | v3_pascal | xx |   | 34ms  | 100ms  | 213ms |
 
 
+### Problems
+
+Seems faster RCNN in tensorrt sample doesn't implement the image preprocessing, which means it only accept image of specific size. 
+If you try to modify the input size in prototxt, it will not produce correct detection.
+
+
 ### related projects 
 
 tensorflow model/object_detection
