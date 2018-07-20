@@ -118,7 +118,9 @@ https://www.mapillary.com/
 
 https://arxiv.org/pdf/1807.01726.pdf
 
+### edge detection
 
+https://arxiv.org/pdf/1612.02103.pdf
 
 
 ### selfdriving projects
