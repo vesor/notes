@@ -1,5 +1,5 @@
 
-## Speed compare
+## Benchmark
 
 
 Image used: 1000x750.jpg
@@ -104,6 +104,12 @@ python object_detection/export_inference_graph.py \
     --trained_checkpoint_prefix=object_detection/export_models/ssd_mobilenet_v1_coco_2018_01_28/model.ckpt \
     --output_directory=object_detection/export_models
 
+
+### Thoughts
+
+tracking -> prediction ----> easier region/class detection
+big/small network : big network for detection, small network for tracking/prediction
+attention (focus region round robin) / coarse/fine detection interval ----> reduce detection time 
 
 
 ### lane detection
