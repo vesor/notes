@@ -108,7 +108,9 @@ python object_detection/export_inference_graph.py \
 ### Thoughts
 
 tracking -> prediction ----> easier region/class detection
+
 big/small network : big network for detection, small network for tracking/prediction
+
 attention (focus region round robin) / coarse/fine detection interval ----> reduce detection time 
 
 
