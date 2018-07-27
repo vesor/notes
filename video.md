@@ -27,3 +27,9 @@ you need to use cmake to build it first
 
     ffmpeg -i source-file.foo -ss 600 -t 600 second-10-min.m4v
     
+## convert images to video
+
+    # crf 0-51, smaller the better. 18 means visually lossless, default is 23.
+    ffmpeg -framerate 30 -start_number 1 -i "sh_000001_%06d.jpg" -pix_fmt yuv420p -c:v libx264 -crf 18 out.h264
+    
+    
