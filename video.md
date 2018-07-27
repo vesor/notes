@@ -32,4 +32,7 @@ you need to use cmake to build it first
     # crf 0-51, smaller the better. 18 means visually lossless, default is 23.
     ffmpeg -framerate 30 -start_number 1 -i "sh_000001_%06d.jpg" -pix_fmt yuv420p -c:v libx264 -crf 18 out.h264
     
-    
+## scale video
+
+    # scale=320:240 also works when convert images to video
+    ffmpeg -i input.h264 -vf scale=320:240 output.h264
