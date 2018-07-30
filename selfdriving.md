@@ -47,6 +47,7 @@ For tensorflow implementations, image preprocess will resize to make sure image 
 
 For faster/mask rcnn, reduce number of classes will improve the infer speed.
 
+For faster/mask rcnn, low proposal can improve infer speed, please compare pipeline.config of the lowproposal config.
 
 ### related projects 
 
