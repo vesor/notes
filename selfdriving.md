@@ -20,6 +20,7 @@ Image used: 1000x750.jpg
 | ssd_mobile_v1_2018 | 15ms |   | 19-24ms  | 120-150ms  | 134-160ms |
 | ssd_mobile_v2_2018 | 18ms |   | 23-30ms  | 120-150ms  | 174-200ms |
 | frcnn_inception_v2 | 31-38ms |   | 47-50ms |   | |
+| frcnn_inception_finetune (4 classes) |  |   | 34-37ms |   | |
 | frcnn_resnet50 | 50-54ms |   | 83-90ms  | 313-337ms  | |
 | **realtime_object_detection** |
 | ssd_mobilenet_v11 split | 8-10ms | | 12ms | 41-46ms | 58-60ms |
