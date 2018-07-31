@@ -49,6 +49,17 @@ For faster/mask rcnn, reduce number of classes will improve the infer speed.
 
 For faster/mask rcnn, low proposal can improve infer speed, please compare pipeline.config of the lowproposal config.
 
+### TODO
+
+label person with bike, instead of considering it as bike.
+
+label empty (background) images.
+
+label frames which perform bad.
+
+Try share refined bbox across classes?
+
+
 ### related projects 
 
 tensorflow model/object_detection
