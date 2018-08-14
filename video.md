@@ -22,6 +22,7 @@ you need to use cmake to build it first
 
     ffmpeg -i video.h264 %06d.png
     ffmpeg -i video.h264 -vf fps=1 %06d.png #retreive 1 frame per second
+    ffmpeg -i video.h264 -vf fps=1 -q:v 2 %06d.jpg #-q:v 2 for best image quality
     
 ## split video by time
 
