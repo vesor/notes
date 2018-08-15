@@ -1,4 +1,9 @@
 
+## Convert image
+
+    convert ubuntuhandbook.png -quality 90 ubuntuhandbook.jpg
+    mogrify -format jpg -quality 90 *.png
+
 ## Convert between mp4 and h264
 
     ffmpeg -framerate 24 -i input.h264 -c copy output.mp4
