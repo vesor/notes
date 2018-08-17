@@ -32,7 +32,12 @@ you need to use cmake to build it first
 ## split video by time
 
     ffmpeg -i source-file.foo -ss 600 -t 600 second-10-min.m4v
-    
+
+## concat videos
+
+    printf "file '%s'\n" ./*.h264 > mylist.txt
+    ffmpeg -f concat -safe 0 -i mylist.txt -c copy output.h264
+
 ## convert images to video
 
     # crf 0-51, smaller the better. 18 means visually lossless, default is 23.
