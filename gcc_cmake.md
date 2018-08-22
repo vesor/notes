@@ -7,7 +7,8 @@ So be careful if you installed some headers/libs in default path.
 
 ## view API in so file:
 
-        #-C is also useful for demangling C++
-        objdump -TC libz.so 
+        objdump -TC libz.so # -C is also useful for demangling C++
         
+        # or use nm
+        nm --demangle --dynamic --defined-only --extern-only libz.so
         
