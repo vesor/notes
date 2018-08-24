@@ -57,8 +57,6 @@ label empty (background) images.
 
 label frames which perform bad.
 
-Try share refined bbox across classes?
-
 
 ### related projects 
 
@@ -130,6 +128,7 @@ big/small network : big network for detection, small network for tracking/predic
 
 attention (focus region round robin) / coarse/fine detection interval ----> reduce detection time 
 
+Spatial iteration of attention: Detect high level bbox first (car), then detect low level bbox (wheels, lights, brand, etc.)
 
 ### lane detection
 
