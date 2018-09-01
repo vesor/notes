@@ -28,19 +28,23 @@ PyCharm issue:  Index file .PyCharmCE2017.3/system/caches/content.dat.storageDat
 Use File -> Invidate Caches to invaidate and restart.
 
 
-# Config p4merge as external git diff tool
+# Use tmate to work remotely
 
-      git config --global diff.tool p4merge
-      git config --global difftool.p4merge.cmd "~/Applications/p4v/bin/p4merge \$LOCAL \$REMOTE"
+Start tmate on server:
 
-Changes are made to your ~/.gitconfig:
+      tmate
+      tmate detatch
+      
+Then you can connect to server:
 
-      [diff]
-          tool = p4merge
-      [difftool "p4merge"]
-          cmd = ~/Applications/p4v/bin/p4merge $LOCAL $REMOTE
-          
-Note you can't just run git diff myfile.txt you need to run git difftool myfile.txt
+      ssh ro-s8EGu5v1WessJXBuUj7SR2adg@sg2.tmate.io
+
+Use transfer.sh to transfer file (no scp support in tmate):
+
+      # Upload
+      curl --upload-file ./hello.txt https://transfer.sh/hello.txt 
+      # Download
+      curl https://transfer.sh/66nb8/hello.txt -o hello.txt
 
 # Use rsync to share folder between Mac and ubuntu
 From remote to local computer
