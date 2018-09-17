@@ -1,3 +1,8 @@
+# Set PYTHONPATH for caffe2 in pytorch
+
+        # libcaffe2_detectron_ops_gpu.so is in /usr/local/lib/python2.7/dist-packages/torch
+        export PYTHONPATH=$PYTHONPATH:`pwd`:/usr/local/lib/python2.7/dist-packages/torch
+
 
 
 # Set envirotment var
