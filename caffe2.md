@@ -1,7 +1,12 @@
-# Set PYTHONPATH for caffe2 in pytorch
+# Run detectron for caffe2 in pytorch
 
-        # libcaffe2_detectron_ops_gpu.so is in /usr/local/lib/python2.7/dist-packages/torch
-        export PYTHONPATH=$PYTHONPATH:`pwd`:/usr/local/lib/python2.7/dist-packages/torch
+        export PYTHONPATH=$PYTHONPATH:`pwd`
+        
+libcaffe2_detectron_ops_gpu.so is in /usr/local/lib/python2.7/dist-packages/torch, 
+so need to modify /media/data/vesor_detectron/detectron/utils/env.py to add the following line (line71)
+NOTE don't add /usr/local/lib/python2.7/dist-packages/torch to PYTHONPATH, it will crash when loading libtorch.so
+        
+        prefixes.append('/usr/local/lib/python2.7/dist-packages/torch')
 
 
 
