@@ -21,10 +21,15 @@ Image used: 1000x750.jpg
 | ssd_mobile_v2_2018 | 18ms |   | 23-30ms  | 120-150ms  | 174-200ms |
 | frcnn_inception_v2 | 31-38ms |   | 47-50ms |   | |
 | frcnn_inception_finetune (4 classes) |  |   | 34-37ms | 110-130ms | |
+| frcnn_inception_finetune (16 classes + 2 keypoints) |  |   | 50-52ms | 146ms | OutOfMemory |
 | frcnn_resnet50 | 50-54ms |   | 83-90ms  | 313-337ms  | |
 | **realtime_object_detection** |
 | ssd_mobilenet_v11 split | 8-10ms | | 12ms | 41-46ms | 58-60ms |
 | ssd_mobilenet_v11 nosplit | 15-17ms | | 22ms | 144-157ms | 148-160ms |
+| ssd_mobilenet_v11 split (16 classes) | | | 7-8ms | 26ms | 37ms |
+| ssd_mobilenet_v11 nosplit (16 classes) | | | 9ms | 53ms | 63ms |
+| ssd_mobilenet_v11 split (16 classes + 2 keypoints) | | | 7ms | 26ms | 37ms |
+| ssd_mobilenet_v11 nosplit (16 classes + 2 keypoints) | | | 9ms | 55ms | 60-65ms |
 | ssd_mobilenet_v1_2017 split | 11-13ms | |  |  |  |
 | ssd_mobilenet_v1_2017 nosplit | 28-30ms | |  |  |  |
 | ssd_mobilenet_v1_2018 split | 8-10ms | |  |  |  |
