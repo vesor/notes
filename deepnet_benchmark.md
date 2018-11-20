@@ -28,8 +28,8 @@ Image used: 1000x750.jpg
 | ssd_mobilenet_v11 nosplit | 15-17ms | | 22ms | 144-157ms | 148-160ms |
 | ssd_mobilenet_v11_finetune split (16 classes) | | | 7-8ms | 26ms | 37ms |
 | ssd_mobilenet_v11_finetune nosplit (16 classes) | | | 9ms | 53ms | 63ms |
-| ssd_mobilenet_v11_finetune split (16 classes + 2 keypoints) | | | 7ms | 26ms | 37ms |
-| ssd_mobilenet_v11_finetune nosplit (16 classes + 2 keypoints) | | | 9ms | 55ms | 60-65ms |
+| ssd_mobilenet_v11_finetune split (16 classes + 2 keypoints) | | | 7-8ms | 26ms | 37ms |
+| ssd_mobilenet_v11_finetune nosplit (16 classes + 2 keypoints) | | | 9-10ms | 55ms | 60-65ms |
 | ssd_mobilenet_v1_2017 split | 11-13ms | |  |  |  |
 | ssd_mobilenet_v1_2017 nosplit | 28-30ms | |  |  |  |
 | ssd_mobilenet_v1_2018 split | 8-10ms | |  |  |  |
