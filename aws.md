@@ -17,3 +17,9 @@ Mount vol
 instance pricing: https://aws.amazon.com/ec2/pricing/on-demand/
 
 storage pricing: https://aws.amazon.com/ebs/pricing/
+
+
+# Getting instance info by AWS CLI
+
+aws ec2 describe-instances
+
