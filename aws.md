@@ -18,6 +18,11 @@ instance pricing: https://aws.amazon.com/ec2/pricing/on-demand/
 
 storage pricing: https://aws.amazon.com/ebs/pricing/
 
+# Automatically start stop instance
+
+aws CloudWatch
+
+aws Lambda
 
 # Getting instance info by AWS CLI
 
