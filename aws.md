@@ -20,7 +20,7 @@ storage pricing: https://aws.amazon.com/ebs/pricing/
 
 # Automatically start stop instance
 
-aws CloudWatch
+aws CloudWatch -> Events -> Rules
 
 aws Lambda
 
