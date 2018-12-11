@@ -1,3 +1,5 @@
+# Automatically start aws instance and run sslocal
+
 import subprocess
 import json
 import time
