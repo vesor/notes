@@ -15,6 +15,8 @@ https://github.com/googlecartographer/rfcs/pull/9
 
 https://github.com/googlecartographer/cartographer_ros/issues/628
 
+https://github.com/googlecartographer/cartographer_ros/issues/354
+
 ## localization
 
 https://github.com/googlecartographer/cartographer_ros/issues/706
