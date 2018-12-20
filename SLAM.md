@@ -11,6 +11,10 @@ https://github.com/googlecartographer/cartographer/issues/690
 
 https://github.com/googlecartographer/rfcs/pull/9
 
+## Tunning
+
+https://github.com/googlecartographer/cartographer_ros/issues/628
+
 ## localization
 
 https://github.com/googlecartographer/cartographer_ros/issues/706
