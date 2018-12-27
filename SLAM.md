@@ -23,3 +23,11 @@ https://github.com/googlecartographer/cartographer_ros/issues/706
 
 https://github.com/googlecartographer/cartographer/issues/255
 
+
+## Trade off
+
+extropolator: pose only / odometry / correlative scan match
+
+scan match: hit only / hit+miss matching?
+
+Different purpose: pure localization / online SLAM / offline mapping
