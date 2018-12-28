@@ -33,3 +33,18 @@ scan match: hit only / hit+miss matching?
 Different purpose: pure localization / online SLAM / offline mapping
 
 Scan frequency: 20HZ?
+
+## TODO
+
+Pure localization
+
+Image registration
+
+
+
+# Lane graph extraction
+
+GVD: may use boost and merge linesegments?
+
+Solver: use Ceres instead of own code?
+
