@@ -36,6 +36,8 @@ Scan frequency: 20HZ?
 
 ## TODO
 
+Rviz config: view submaps when running
+
 Odometry: bicycle or rear differential?
 
 Pure localization
