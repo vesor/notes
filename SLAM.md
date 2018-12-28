@@ -36,6 +36,8 @@ Scan frequency: 20HZ?
 
 ## TODO
 
+Odometry: bicycle or rear differential?
+
 Pure localization
 
 Image registration
