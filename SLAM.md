@@ -31,3 +31,5 @@ extropolator: pose only / odometry / correlative scan match
 scan match: hit only / hit+miss matching?
 
 Different purpose: pure localization / online SLAM / offline mapping
+
+Scan frequency: 20HZ?
