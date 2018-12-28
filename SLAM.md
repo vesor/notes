@@ -52,3 +52,4 @@ GVD: may use boost and merge linesegments?
 
 Solver: use Ceres instead of own code?
 
+http://www.inf.u-szeged.hu/~palagyi/skel/skel.html
