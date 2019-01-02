@@ -23,6 +23,10 @@ https://github.com/googlecartographer/cartographer_ros/issues/706
 
 https://github.com/googlecartographer/cartographer/issues/255
 
+## GVD
+
+https://homepages.inf.ed.ac.uk/rbf/HIPR2/thin.htm
+
 
 ## Trade off
 
