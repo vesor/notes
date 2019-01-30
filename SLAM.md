@@ -1,4 +1,13 @@
 
+# lidar manufacter
+
+Traditional: velodyne quanergy
+
+Traditional lowcost: 思岚科技 雷神智能
+
+Solid state: leddartech innoviz
+
+
 # cartographer
 
 https://github.com/googlecartographer/cartographer_ros/issues/725
