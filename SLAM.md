@@ -14,6 +14,10 @@ https://github.com/googlecartographer/cartographer_ros/issues/725
 
 https://github.com/ytgcljj/ndt_localizer
 
+VLP16: https://github.com/googlecartographer/cartographer_ros/issues/259
+
+KITTI: https://github.com/googlecartographer/cartographer_ros/issues/264#issuecomment-337916432
+
 ## odometry
 
 https://github.com/googlecartographer/cartographer/issues/690
@@ -25,6 +29,8 @@ https://github.com/googlecartographer/rfcs/pull/9
 https://github.com/googlecartographer/cartographer_ros/issues/628
 
 https://github.com/googlecartographer/cartographer_ros/issues/354
+
+https://github.com/googlecartographer/cartographer_ros/issues/332
 
 ## localization
 
