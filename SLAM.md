@@ -1,5 +1,5 @@
 
-# lidar manufacter
+# lidar models
 
 Traditional: velodyne quanergy
 
@@ -7,6 +7,14 @@ Traditional lowcost: 思岚科技 雷神智能
 
 Solid state: leddartech innoviz
 
+## velodyne sample data
+
+https://data.kitware.com/#collection/5b7f46f98d777f06857cb206/folder/5b7f47568d777f06857cb208
+
+# IMU models
+
+Lord: https://www.microstrain.com/inertial/3DM-CV5-10
+Xsens
 
 # cartographer
 
