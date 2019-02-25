@@ -14,6 +14,7 @@ https://data.kitware.com/#collection/5b7f46f98d777f06857cb206/folder/5b7f47568d7
 # IMU models
 
 Lord: https://www.microstrain.com/inertial/3DM-CV5-10
+
 Xsens
 
 # cartographer
@@ -70,6 +71,12 @@ Odometry: bicycle or rear differential?
 Pure localization
 
 Image registration
+
+
+# LOAM
+
+explaination: https://zhuanlan.zhihu.com/c_131391131
+
 
 
 
