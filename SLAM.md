@@ -77,7 +77,18 @@ Image registration
 
 explaination: https://zhuanlan.zhihu.com/c_131391131
 
+Pros: Accurate, even without IMU/LoopClosure
 
+Cons: 1) Error occurs sometimes during tests. 
+2) How to remove dynamic objects?
+
+# LeGo-LOAM
+
+video: https://www.youtube.com/watch?v=O3tz_ftHV48
+
+Pros: Fast enough for Jetson TX2
+
+Cons: Need IMU? Small errors during tests. LoopClosure seems not working well?
 
 
 # Lane graph extraction
