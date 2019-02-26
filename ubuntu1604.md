@@ -134,6 +134,11 @@ To retore back:
 
 
 # Find files exclude directory
-find . -path ./misc -prune -o -name '*.txt' -print
 
+      find . -path ./misc -prune -o -name '*.txt' -print
+
+# Bash rename files
+rename all xxx_h.png to xxx_half.png:
+
+      for file in *.png; do mv "$file" "${file/_h.png/_half.png}"; done
 
