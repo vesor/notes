@@ -10,7 +10,7 @@ Then what's the pose of camera in world coordinate?
     d) X = W.inverse * L
 
 
-2. What can IMU measure? What can't be measured directly?
+2. What can IMU measure? What can't be measured directly? (a = acceleration, w = rotation angle, v = velocity, g = gravity)
 
     a) a, w; v, g;
 
