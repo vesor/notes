@@ -20,3 +20,13 @@ Then what's the pose of camera in world coordinate?
 
     d) a, v; w, g;
 
+3. Assume we detected several pairs of points of two images taken from the same camera in different positions, how to calculate the distance of the two camera positions? (camera intrinsics are provided)
+
+    a) You can't, because the result is up to scale
+    
+    b) use epipolar constraint to calculate fundamental matrix or essential matrix 
+    
+    c) use PnP
+    
+    d) use triangulate
+    
