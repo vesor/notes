@@ -30,3 +30,29 @@ Then what's the pose of camera in world coordinate?
     
     d) use triangulate
     
+4. Assume there are two poses represented as (Eigen::Vector3d translation, Eigen::Quaterniond rotation), then the interpolated middle point of the two poses is:
+
+    a) (translation1 + translation2) / 2, rotation1.slerp(0.5, rotation2)
+    
+    b) (translation1 + translation2) / 2, (rotation1 + rotation2) / 2
+    
+    c) (translation1 + translation2) / 2, (rotation1.toRotationMatrix() + rotation2.toRotationMatrix()) / 2
+    
+    d) (translation1 + translation2) / 2, (rotation1.toRotationMatrix().eulerAngles(0, 1, 2) + rotation2.toRotationMatrix().eulerAngles(0, 1, 2)) / 2
+    
+5. what's the output of the following c++ code?
+
+        Eigen::RowVector2d v1(1, 2);
+        auto v2 = v1 / 2;
+        v1 = v1 * 10;
+        std::cout << v1 << ";" << v2 << std::endl;
+        
+    a) 10 20;  5 10
+    
+    b) 10 20;  0.5 1
+    
+    c)  5 10;  5 10
+    
+    d) compile error
+  
+  
