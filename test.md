@@ -30,15 +30,15 @@ Then what's the pose of camera in world coordinate? (All poses represented as 4x
     
     d) use triangulate
     
-4. Assume there are two poses represented as (Eigen::Vector3d translation, Eigen::Quaterniond rotation), then the interpolated middle point of the two poses is:
+4. Assume there are two poses represented as (Eigen::Vector3d translation, Eigen::Quaterniond rotation), then the interpolated rotation in the middle point of the two poses is:
 
-    a) (translation1 + translation2) / 2, rotation1.slerp(0.5, rotation2)
+    a) rotation1.slerp(0.5, rotation2)
     
-    b) (translation1 + translation2) / 2, (rotation1 + rotation2) / 2
+    b) (rotation1 + rotation2) / 2
     
-    c) (translation1 + translation2) / 2, (rotation1.toRotationMatrix() + rotation2.toRotationMatrix()) / 2
+    c) (rotation1.toRotationMatrix() + rotation2.toRotationMatrix()) / 2
     
-    d) (translation1 + translation2) / 2, (rotation1.toRotationMatrix().eulerAngles(0, 1, 2) + rotation2.toRotationMatrix().eulerAngles(0, 1, 2)) / 2
+    d) (rotation1.toRotationMatrix().eulerAngles(0, 1, 2) + rotation2.toRotationMatrix().eulerAngles(0, 1, 2)) / 2
     
 5. what's the output of the following c++ code?
 
@@ -55,4 +55,10 @@ Then what's the pose of camera in world coordinate? (All poses represented as 4x
     
     d) compile error
   
-  
+6. Assume two poses represented as R1,t1 and R2,t2, then the relative translation between the two poses is:
+
+    a) t2 - R1 * t1
+    b) t2 - t1
+    c) t2 - R1.inverse() * t1
+    d) (t2 - t1) * R1
+    
