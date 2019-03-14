@@ -1,7 +1,7 @@
 1. Assume L is the pose of camera in IMU coordinate, W is pose of IMU in world coordinate. 
 Then what's the pose of camera in world coordinate? (All poses represented as 4x4 matrix R|t)
 
-    a) X = W * L (not L * W, because Px = W * L * Pl, apply L first, then W.) 
+    a) X = W * L (not L * W, because Px = W * L * Pl, apply L first, then W.)  
     b) X = L * W  
     c) X = W * L.inverse  
     d) X = W.inverse * L  
