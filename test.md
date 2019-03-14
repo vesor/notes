@@ -54,8 +54,31 @@ Then what's the pose of camera in world coordinate? (All poses represented as 4x
     c)  5 10;  5 10
     
     d) compile error
-  
-6. Assume two poses represented as R1,t1 and R2,t2, then the relative translation between the two poses is:
+
+6. If use Ceres to solve problem as the following code: 
+    
+        class MyFunctor
+        {
+        public:
+            static ceres::CostFunction* Create() {
+                return new ceres::AutoDiffCostFunction<MyFunctor, 1, 2>(new MyFunctor());
+            }
+
+            template <typename T>
+            bool operator()(const T* const X, T* residuals) const {
+                residuals[0] = T(1) - X[0] + T(2) - T(5) * X[1];
+                std::cout << "==res: " << residuals[0] << std::endl;
+                return true;
+            }
+        };
+    what's the output may looks like?
+    
+    a) ==res: -0.00279986 and ==res: [-0.00279986 ; -1, -5]
+    b) ==res: -0.00279986 and ==res: [-0.00279986 ; 1, 5]
+    c) ==res: -1, -5
+    d) ==res: -0.00279986
+
+7. Assume two poses represented as R1,t1 and R2,t2, then the relative translation between the two poses is:
 
     a) t2 - R1 * t1
     b) t2 - t1
