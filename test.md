@@ -74,8 +74,11 @@ Then what's the pose of camera in world coordinate? (All poses represented as 4x
     what's the output may looks like?
     
     a) ==res: -0.00279986 and ==res: [-0.00279986 ; -1, -5]
+    
     b) ==res: -0.00279986 and ==res: [-0.00279986 ; 1, 5]
+    
     c) ==res: -1, -5
+    
     d) ==res: -0.00279986
 
 7. Assume two poses represented as R1,t1 and R2,t2, then the relative translation between the two poses is:
