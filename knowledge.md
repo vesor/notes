@@ -1,5 +1,5 @@
-Calculus 微积分
-Linear algbra 线性代数
+Calculus 微积分  
+Linear algbra 线性代数 
 Probability 概率论
 Kinematics 运动学
 Dynamics 动力学
