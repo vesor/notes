@@ -64,8 +64,8 @@ Then what's the pose of camera in world coordinate? (All poses represented as 4x
 
 7. Assume two poses represented as R1,t1 and R2,t2, then the relative translation between the two poses is:
 
-    a) t2 - R1 * t1  
+    a) t2 - R2 * R1.transpose() * t1  
     b) t2 - t1  
-    c) t2 - R1.inverse() * t1  
+    c) t2 - R2 * t1  
     d) (t2 - t1) * R1  
     
