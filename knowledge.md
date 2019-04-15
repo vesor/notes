@@ -26,7 +26,8 @@ Planning: https://www.jianshu.com/p/54d4c650723d?from=timeline&isappinstalled=0
 ## References:
 
 Wheel:  
-https://arxiv.org/pdf/1804.04854.pdf
+https://arxiv.org/pdf/1804.04854.pdf  
+https://www.iti.uni-luebeck.de/fileadmin/Rob/paper/HKM13.pdf  
 
 Struct line SLAM:  
 https://www.youtube.com/watch?v=7HNdJEb21DQ  
