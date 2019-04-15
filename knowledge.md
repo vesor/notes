@@ -25,8 +25,10 @@ Planning: https://www.jianshu.com/p/54d4c650723d?from=timeline&isappinstalled=0
 
 ## References:
 
-Struct line SLAM: 
+Wheel:  
+https://arxiv.org/pdf/1804.04854.pdf
 
+Struct line SLAM:  
 https://www.youtube.com/watch?v=7HNdJEb21DQ  
 https://www.youtube.com/watch?v=jzBMsKCm0uk  
 https://arxiv.org/pdf/1708.03275.pdf  
