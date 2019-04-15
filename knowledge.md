@@ -20,6 +20,8 @@ Deep learning: quantitize/speed up/3D bbox
 
 VSLAM: feature lines/semantic/deep learning
 
+Camera localization: rewrite the constraints for parkingspots, add constraints for lanes?
+
 SLAM: LOAM/replace pbstream
 
 Other: perception/tracking/prediction
