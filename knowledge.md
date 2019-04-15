@@ -46,3 +46,18 @@ https://www.zhihu.com/question/264578623
 深度学习结合SLAM 研究现状总结  
 https://github.com/Ewenwan/MVision/tree/master/vSLAM/VS_SLAM  
 
+
+Map vectorization:  
+https://www.scan2cad.com/dxf/convert/algorithms-raster-to-vector-conversion/  
+https://www.pyimagesearch.com/2016/02/08/opencv-shape-detection/  
+https://www.learnopencv.com/delaunay-triangulation-and-voronoi-diagram-using-opencv-c-python/  
+http://www.imagemagick.org/Usage/morphology/#linejunctions  
+opencv thinning: https://docs.opencv.org/3.4.0/df/d2d/group__ximgproc.html  
+https://usc-isi-i2.github.io/papers/chiang09-grec.pdf  
+http://felix.abecassis.me/2011/09/opencv-morphological-skeleton/  
+https://www.researchgate.net/publication/316476002_Comparison_of_thinning_algorithms_for_vectorization_of_engineering_drawings  
+https://www.isprs.org/proceedings/XXXVII/congress/2_pdf/3_WG-II-3/17.pdf  
+https://roadmaps.csail.mit.edu/roadtracer.pdf  
+http://cs.joensuu.fi/~koles/dissertation/Thesis_Kolesnikov_Ch3.pdf  
+https://www.ucalgary.ca/engo_webdocs/DM/05.20226.Girija-Dharmaraj.pdf  
+
