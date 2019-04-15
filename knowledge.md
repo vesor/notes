@@ -15,7 +15,7 @@ Eigen, numpy, ceres, opencv, tensorflow
 Linux, ROS, c++, python  
 
 
-# Directions:
+## Directions:
 Deep learning: quantitize/speed up/3D bbox
 
 VSLAM: feature lines/semantic/deep learning
