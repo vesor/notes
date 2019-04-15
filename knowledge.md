@@ -25,3 +25,5 @@ Camera localization: rewrite the constraints for parkingspots, add constraints f
 SLAM: LOAM/replace pbstream
 
 Other: perception/tracking/prediction
+
+Planning: https://www.jianshu.com/p/54d4c650723d?from=timeline&isappinstalled=0
