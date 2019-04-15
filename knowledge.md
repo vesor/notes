@@ -16,17 +16,12 @@ Linux, ROS, c++, python
 
 
 ## Directions:
-Deep learning: quantitize/speed up/3D bbox
-
-VSLAM: feature lines/semantic/deep learning
-
-Camera localization: rewrite the constraints for parkingspots, add constraints for lanes?
-
-SLAM: LOAM/replace pbstream
-
-Other: perception/tracking/prediction
-
-Planning: https://www.jianshu.com/p/54d4c650723d?from=timeline&isappinstalled=0
+Deep learning: quantitize/speed up/3D bbox  
+VSLAM: feature lines/semantic/deep learning  
+Camera localization: rewrite the constraints for parkingspots, add constraints for lanes?  
+SLAM: LOAM/replace pbstream  
+Other: perception/tracking/prediction  
+Planning: https://www.jianshu.com/p/54d4c650723d?from=timeline&isappinstalled=0  
 
 ## References:
 
