@@ -32,15 +32,15 @@ Planning: https://www.jianshu.com/p/54d4c650723d?from=timeline&isappinstalled=0
 
 Struct line SLAM: 
 
-https://www.youtube.com/watch?v=7HNdJEb21DQ 
-https://www.youtube.com/watch?v=jzBMsKCm0uk 
-https://arxiv.org/pdf/1708.03275.pdf 
-http://cvrs.whu.edu.cn/projects/Struct-PL-SLAM/source/file/Struct_PL_SLAM.pdf 
-http://cvrs.whu.edu.cn/projects/Struct-PL-SLAM/ 
-https://lmb.informatik.uni-freiburg.de/people/zhouh/StructSLAM.pdf 
-https://github.com/shidahe/semidense-lines 
-https://github.com/rubengooj/pl-svo 
-https://github.com/rubengooj/pl-slam 
-https://arxiv.org/pdf/1809.03415.pdf 
-http://mapir.isa.uma.es/rgomez/publications/iros16plsvo.pdf 
-https://www.zhihu.com/question/264578623 
+https://www.youtube.com/watch?v=7HNdJEb21DQ  
+https://www.youtube.com/watch?v=jzBMsKCm0uk  
+https://arxiv.org/pdf/1708.03275.pdf  
+http://cvrs.whu.edu.cn/projects/Struct-PL-SLAM/source/file/Struct_PL_SLAM.pdf  
+http://cvrs.whu.edu.cn/projects/Struct-PL-SLAM/  
+https://lmb.informatik.uni-freiburg.de/people/zhouh/StructSLAM.pdf  
+https://github.com/shidahe/semidense-lines  
+https://github.com/rubengooj/pl-svo  
+https://github.com/rubengooj/pl-slam  
+https://arxiv.org/pdf/1809.03415.pdf  
+http://mapir.isa.uma.es/rgomez/publications/iros16plsvo.pdf  
+https://www.zhihu.com/question/264578623  
