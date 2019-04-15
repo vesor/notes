@@ -13,3 +13,13 @@ Markov
 Eigen, numpy, ceres, opencv, tensorflow  
 
 Linux, ROS, c++, python  
+
+
+# Directions:
+Deep learning: quantitize/speed up/3D bbox
+
+VSLAM: feature lines/semantic/deep learning
+
+SLAM: LOAM/replace pbstream
+
+Other: perception/tracking/prediction
