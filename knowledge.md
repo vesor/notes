@@ -28,6 +28,7 @@ Planning: https://www.jianshu.com/p/54d4c650723d?from=timeline&isappinstalled=0
 Wheel:  
 https://arxiv.org/pdf/1804.04854.pdf  
 https://www.iti.uni-luebeck.de/fileadmin/Rob/paper/HKM13.pdf  
+https://blog.csdn.net/xingdou520/article/details/83691951  
 
 Struct line SLAM:  
 https://www.youtube.com/watch?v=7HNdJEb21DQ  
@@ -45,7 +46,8 @@ https://www.zhihu.com/question/264578623
 
 深度学习结合SLAM 研究现状总结  
 https://github.com/Ewenwan/MVision/tree/master/vSLAM/VS_SLAM  
-
+多传感器融合技术  
+https://blog.csdn.net/xingdou520/article/details/84103987  
 
 Map vectorization:  
 https://www.scan2cad.com/dxf/convert/algorithms-raster-to-vector-conversion/  
@@ -61,3 +63,5 @@ https://roadmaps.csail.mit.edu/roadtracer.pdf
 http://cs.joensuu.fi/~koles/dissertation/Thesis_Kolesnikov_Ch3.pdf  
 https://www.ucalgary.ca/engo_webdocs/DM/05.20226.Girija-Dharmaraj.pdf  
 
+Localization:  
+https://blog.csdn.net/xingdou520/article/details/84104644  
