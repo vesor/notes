@@ -1,5 +1,6 @@
 Calculus 微积分  
 Linear algbra 线性代数  
+Matrix Calculus 矩阵微分 https://zhuanlan.zhihu.com/p/24709748
 Probability 概率论  
 Kinematics 运动学  
 Dynamics 动力学  
