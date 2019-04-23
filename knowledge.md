@@ -1,6 +1,6 @@
 Calculus 微积分  
 Linear algbra 线性代数  
-Matrix Calculus 矩阵微分 https://zhuanlan.zhihu.com/p/24709748
+Matrix Calculus 矩阵微分  
 Probability 概率论  
 Kinematics 运动学  
 Dynamics 动力学  
@@ -14,6 +14,10 @@ Markov
 Eigen, numpy, ceres, opencv, tensorflow  
 
 Linux, ROS, c++, python  
+
+Matrix Calculus: https://zhuanlan.zhihu.com/p/24709748   
+Recursive Least square: https://zhuanlan.zhihu.com/p/53883828  
+
 
 
 ## Directions:
