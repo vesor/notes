@@ -3,6 +3,7 @@ Linear algbra 线性代数
 Probability 概率论  
 Matrix Calculus 矩阵分析    
 Optimization 最优化（运筹学）  
+Control Theory 控制理论（包括状态估计、系统控制etc）
 Kinematics 运动学  
 Dynamics 动力学  
 
@@ -19,7 +20,7 @@ Linux, ROS, c++, python
 Matrix Calculus: https://zhuanlan.zhihu.com/p/24709748   
 Recursive Least square: https://zhuanlan.zhihu.com/p/53883828  
 Optimization： https://zhuanlan.zhihu.com/p/27429666  
-
+Control Theory： https://www.zhihu.com/question/55500106/answer/423585230  
 
 ## Directions:
 Deep learning: quantitize/speed up/3D bbox  
