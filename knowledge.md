@@ -20,9 +20,10 @@ Linux, ROS, c++, python
 
 Matrix Calculus: https://zhuanlan.zhihu.com/p/24709748   
 Recursive Least square: https://zhuanlan.zhihu.com/p/53883828  
-Optimization： https://zhuanlan.zhihu.com/p/27429666   
-Control Theory： https://www.zhihu.com/question/55500106/answer/423585230  
-Lagrance duality ： https://zhuanlan.zhihu.com/p/28958014  
+Optimization: https://zhuanlan.zhihu.com/p/27429666   
+Control Theory: https://www.zhihu.com/question/55500106/answer/423585230  
+Lagrance duality: https://zhuanlan.zhihu.com/p/28958014  
+SVM: https://zhuanlan.zhihu.com/p/24638007   
 
 ## Directions:
 Deep learning: quantitize/speed up/3D bbox  
