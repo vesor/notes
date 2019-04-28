@@ -3,7 +3,7 @@ Linear algbra 线性代数
 Probability 概率论  
 Matrix Calculus 矩阵分析    
 Optimization 最优化（运筹学）  
-Control Theory 控制理论（包括状态估计、系统控制etc）
+Control Theory 控制理论（包括状态估计、系统控制etc）  
 Kinematics 运动学  
 Dynamics 动力学  
 
