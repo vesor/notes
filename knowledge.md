@@ -7,6 +7,7 @@ Control Theory 控制理论（包括状态估计、系统控制etc）
 Kinematics 运动学  
 Dynamics 动力学  
 
+General note: https://zhuanlan.zhihu.com/p/41262286   
 
 Taylor, Jaccobi, Hessian  
 Quaternion, homography, Lie group, manifold, tangent space, Schur complete  
