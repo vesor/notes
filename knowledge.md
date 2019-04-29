@@ -23,6 +23,7 @@ Recursive Least square: https://zhuanlan.zhihu.com/p/53883828
 Optimization: https://zhuanlan.zhihu.com/p/27429666   
 Control Theory: https://www.zhihu.com/question/55500106/answer/423585230  
 Lagrance duality: https://zhuanlan.zhihu.com/p/28958014  
+Branch Bound: https://zhuanlan.zhihu.com/p/27659600   
 SVM: https://zhuanlan.zhihu.com/p/24638007   
 
 ## Directions:
