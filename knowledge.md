@@ -21,6 +21,7 @@ Linux, ROS, c++, python
 Matrix Calculus: https://zhuanlan.zhihu.com/p/24709748   
 Recursive Least square: https://zhuanlan.zhihu.com/p/53883828  
 Optimization: https://zhuanlan.zhihu.com/p/27429666   
+Bayes Optimization: https://towardsdatascience.com/shallow-understanding-on-bayesian-optimization-324b6c1f7083   
 Multi-object opt: https://www.zhihu.com/question/269477468   
 Control Theory: https://www.zhihu.com/question/55500106/answer/423585230  
 Lagrance duality: https://zhuanlan.zhihu.com/p/28958014  
