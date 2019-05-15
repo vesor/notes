@@ -6,6 +6,7 @@ Optimization 最优化（运筹学）
 Control Theory 控制理论（包括状态估计、系统控制etc）  
 Kinematics 运动学  
 Dynamics 动力学  
+Biology about Brain/Motion
 
 General note: https://zhuanlan.zhihu.com/p/41262286   
 
@@ -18,6 +19,8 @@ Eigen, numpy, ceres, opencv, tensorflow
 
 Linux, ROS, c++, python  
 
+How brain works: https://en.wikipedia.org/wiki/Visual_cortex   
+      https://en.wikipedia.org/wiki/Visual_perception   
 Matrix Calculus: https://zhuanlan.zhihu.com/p/24709748   
 Recursive Least square: https://zhuanlan.zhihu.com/p/53883828  
 Optimization: https://zhuanlan.zhihu.com/p/27429666   
