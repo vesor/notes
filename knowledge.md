@@ -9,6 +9,7 @@ Dynamics 动力学
 Biology about Brain/Motion
 
 General note: https://zhuanlan.zhihu.com/p/41262286   
+Math system: http://www.cnblogs.com/yymn/p/5021254.html   
 
 Taylor, Jaccobi, Hessian  
 Quaternion, homography, Lie group, manifold, tangent space, Schur complete  
