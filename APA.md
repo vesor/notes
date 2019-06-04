@@ -30,7 +30,11 @@ https://detail.tmall.com/item.htm?spm=a230r.1.14.20.2744705fpn0gWY&id=5541901101
 ## Ultra Sonic
 https://item.taobao.com/item.htm?spm=a230r.1.14.47.220b7c35QEgOIf&id=576632343954&ns=1&abbucket=4#detail   
 https://detail.tmall.com/item.htm?id=557355747652&ali_refid=a3_430583_1006:1109983619:N:jIIyYWWP0I+vN1DJDAjepm6QaIsSwyEq:c6246d682fc88a19ee09bda72eb4fc97&ali_trackid=1_c6246d682fc88a19ee09bda72eb4fc97&spm=a230r.1.14.1   
+https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-7968244291.59.5ec01ff2CrbF0j&id=559121237822    
 http://www.audiowell.com/product-detail.aspx?id=275   
 
 ## ultrasonic solution
 https://item.taobao.com/item.htm?spm=a230r.1.14.235.2aaa27b9f9SVw1&id=531977943989&ns=1&abbucket=4#detail   
+
+## manual about 波束角
+https://pan.baidu.com/s/14VxzuB--QjwT2GkfiAr8GA   
