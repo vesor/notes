@@ -26,6 +26,8 @@ https://detail.tmall.com/item.htm?spm=a220o.1000855.w4004-15564783020.8.23144d10
 https://item.taobao.com/item.htm?spm=a230r.1.14.33.2744705fpn0gWY&id=574650791314&ns=1&abbucket=4#detail   
 https://detail.tmall.com/item.htm?spm=a230r.1.14.20.2744705fpn0gWY&id=554190110122&ns=1&abbucket=4&skuId=3410251844532   
 
+## HD camera
+https://item.taobao.com/item.htm?spm=a230r.1.14.33.48853caaAkvZLQ&id=526370730596&ns=1&abbucket=4#detail   
 
 ## Ultra Sonic
 https://item.taobao.com/item.htm?spm=a230r.1.14.47.220b7c35QEgOIf&id=576632343954&ns=1&abbucket=4#detail   
