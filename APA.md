@@ -10,11 +10,11 @@ https://blog.csdn.net/mirkerson/article/details/52290728
 http://www.avermedia.cn/professional/product/c351/overview (1300RMB no cable)   
 https://www.magewell.com/products/pro-capture-hexa-cvbs (2700RMB with cable)   
 
-## Low cost usb video input:
+## Low cost usb video capture:
 https://item.jd.com/27057997466.html    
 https://item.taobao.com/item.htm?spm=2013.1.20160405.7.58193957PCgFrQ&scm=1007.13066.127283.0&id=41249417275      
 
-## HDMI input:
+## HDMI capture:
 https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-12138924093.17.78375d1ev9cqBU&id=569025797367    
 
 ## TX2 solutions:
