@@ -40,3 +40,18 @@ https://item.taobao.com/item.htm?spm=a230r.1.14.235.2aaa27b9f9SVw1&id=5319779439
 
 ## manual about 波束角
 https://pan.baidu.com/s/14VxzuB--QjwT2GkfiAr8GA   
+
+## Computing platform 
+Jetson Xavier vs TX2:    
+http://connecttech.com/xavier-tx2-comparison/
+Tensor cores (1 tensor core ~ 64 cuda core, as it operate on 4x4 matrix):   
+https://devblogs.nvidia.com/programming-tensor-cores-cuda-9/   
+Xavier spec (In case nvidia's marketing team may hide it after promote new platform, like PX2.):   
+https://devblogs.nvidia.com/nvidia-jetson-agx-xavier-32-teraops-ai-robotics/   
+Drive PX2 spec (Cannot find offical data):   
+Include 2 seperated parts, each has 1 iGPU(256 cores) + 1 dGPU(1280 cores, 4G memory)   
+https://www.hotchips.org/wp-content/uploads/hc_archives/hc29/HC29.20-Tutorials-Pub/HC29.20.2-Autonomous-Pub/HC29.20.210.An%20Overview%20of%20NVIDIAs%20Autonomous%20Vehicles%20Platform-v2.pdf
+
+Nvidia Drive Series:   
+https://en.wikipedia.org/wiki/Nvidia_Drive   
+
