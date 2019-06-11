@@ -50,6 +50,7 @@ Xavier spec (In case nvidia's marketing team may hide it after promote new platf
 https://devblogs.nvidia.com/nvidia-jetson-agx-xavier-32-teraops-ai-robotics/   
 Drive PX2 spec (Cannot find offical data):   
 Include 2 seperated parts, each has 1 iGPU(256 cores) + 1 dGPU(1280 cores, 4G memory)   
+(The actual config we got in SH's DrivePX2 is: iGPU 256 cores @ 1.27 GHz, dGPU 1152 cores @ 1.29 GHz)   
 https://www.hotchips.org/wp-content/uploads/hc_archives/hc29/HC29.20-Tutorials-Pub/HC29.20.2-Autonomous-Pub/HC29.20.210.An%20Overview%20of%20NVIDIAs%20Autonomous%20Vehicles%20Platform-v2.pdf
 
 Nvidia Drive Series:   
