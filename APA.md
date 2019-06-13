@@ -3,8 +3,13 @@
 自动泊车谁最好用？Model 3/小鹏G3/威马EX5对比 https://hj.pcauto.com.cn/article/235889.html   
 
 
-## camera solution compare:
-https://blog.csdn.net/mirkerson/article/details/52290728   
+## camera solution provider   
+https://www.stonkam.com   
+http://www.at-electronic.com/3D-avm.html   
+
+## camera interface
+CVBS/AHD/LVDS   
+LVDS: two serialize/deserialize solutions: 1) MAXIM: GMSL 2) TI: FPD LINK
 
 ## camera input chip for TX2:   
 http://www.avermedia.cn/professional/product/c351/overview (1300RMB no cable)   
