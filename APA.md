@@ -48,6 +48,7 @@ https://pan.baidu.com/s/14VxzuB--QjwT2GkfiAr8GA
 
 ## 360 view calibration
 http://blog.sina.cn/dpool/blog/s/blog_54af9e280102w1v8.html?md=gd   
+Ref the patents: http://www.at-electronic.com/assets/%E5%AE%89%E6%99%93%E7%A7%91%E6%8A%80_%E4%BC%81%E4%B8%9A%E5%8F%8A%E4%BA%A7%E5%93%81%E7%B3%BB%E5%88%97%E7%AE%80%E4%BB%8B_201810.pdf    
 
 
 ## Computing platform 
