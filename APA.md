@@ -46,6 +46,10 @@ https://item.taobao.com/item.htm?spm=a230r.1.14.235.2aaa27b9f9SVw1&id=5319779439
 ## manual about 波束角
 https://pan.baidu.com/s/14VxzuB--QjwT2GkfiAr8GA   
 
+## 360 view calibration
+http://blog.sina.cn/dpool/blog/s/blog_54af9e280102w1v8.html?md=gd   
+
+
 ## Computing platform 
 Jetson Xavier vs TX2:    
 http://connecttech.com/xavier-tx2-comparison/
