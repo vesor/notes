@@ -53,6 +53,8 @@ https://v.qq.com/x/page/b0504qx2bpp.html
 For the chessboard cloth: search 全景调试布 in taobao    
 Thoughts: for intrinsic, go normal opencv way. for extrinsic, instead of focus on near points, should also consider far away points (5 meters).   
 
+# sekonix camera mount 
+https://autonomous.home.blog/2019/03/23/sekonix-camera-mounts/    
 
 ## Computing platform 
 Jetson Xavier vs TX2:    
