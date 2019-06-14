@@ -11,7 +11,7 @@ http://www.at-electronic.com/3D-avm.html
 CVBS/AHD/LVDS   
 LVDS: two serialize/deserialize solutions: 1) MAXIM: GMSL 2) TI: FPD LINK
 
-## camera input chip for TX2:   
+## video capture card for TX2:   
 http://www.avermedia.cn/professional/product/c351/overview (1300RMB no cable)   
 https://www.magewell.com/products/pro-capture-hexa-cvbs (2700RMB with cable)   
 
@@ -22,8 +22,8 @@ https://item.taobao.com/item.htm?spm=2013.1.20160405.7.58193957PCgFrQ&scm=1007.1
 ## HDMI capture:
 https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-12138924093.17.78375d1ev9cqBU&id=569025797367    
 
-## TX2 solutions:
-https://i-item.jd.com/32163572097.html#crumb-wrap   
+## Xavier camera input board:
+https://store.d3engineering.com/product/designcore-nvidia-jetson-serdes-card/       
 
 ## Low cost 360 view solution:   
 https://item.jd.com/14604887043.html#crumb-wrap   
