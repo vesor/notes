@@ -52,6 +52,7 @@ Ref the patents: http://www.at-electronic.com/assets/%E5%AE%89%E6%99%93%E7%A7%91
 https://v.qq.com/x/page/b0504qx2bpp.html    
 For the chessboard cloth: search 全景调试布 in taobao    
 Thoughts: for intrinsic, go normal opencv way. for extrinsic, instead of focus on near points, should also consider far away points (5 meters).   
+Utilize lidar and poles: 1) install lidar, check lidar rotation: for example find 4 poles, make car paralle/orth to poles, then two pole's x or tow pole's y should be same. 2) use lidar to measure pole x,y (assume z known, use camera to capture pole's intersection point against ground floor. So we got world/image points pair to calculate extrinsics.    
 
 # sekonix camera mount 
 https://autonomous.home.blog/2019/03/23/sekonix-camera-mounts/    
