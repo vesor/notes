@@ -3,13 +3,21 @@
 自动泊车谁最好用？Model 3/小鹏G3/威马EX5对比 https://hj.pcauto.com.cn/article/235889.html   
 surronding view tech review: http://www.autochinazh.com/news/201705171468.html    
 
+
+## Camera solution
+camera modules: Lens, VCM(focus control, if any), Sensor IC (CMOS/CCD), ISP, Serializer(For HD data).   
+
+camera data transfer: CVBS/AHD/LVDS   
+LVDS serializer: 1) MAXIM: GMSL 2) TI: FPD LINK (II/III)  
+
+I/O solution:   
+1) USB: easy to use, but not for high speed data.    
+2) PCI-E:     
+3) MIPI-CSI: per hardware design, can directly attach to ISP/GPU/VideoEncoder.    
+
 ## camera solution provider   
 https://www.stonkam.com   
 http://www.at-electronic.com/3D-avm.html   
-
-## camera interface
-CVBS/AHD/LVDS   
-LVDS: two serialize/deserialize solutions: 1) MAXIM: GMSL 2) TI: FPD LINK
 
 ## video capture card for TX2:   
 http://www.avermedia.cn/professional/product/c351/overview (1300RMB no cable)   
@@ -46,6 +54,7 @@ https://item.taobao.com/item.htm?spm=a230r.1.14.235.2aaa27b9f9SVw1&id=5319779439
 
 ## manual about 波束角
 https://pan.baidu.com/s/14VxzuB--QjwT2GkfiAr8GA   
+https://www.mouser.cn/datasheet/2/830/HRLV-MaxSonar-EZ_Datasheet-1129373.pdf    
 
 ## 360 view calibration
 http://blog.sina.cn/dpool/blog/s/blog_54af9e280102w1v8.html?md=gd   
@@ -57,6 +66,7 @@ Utilize lidar and poles: 1) install lidar, check lidar rotation: for example fin
 
 # sekonix camera mount 
 https://autonomous.home.blog/2019/03/23/sekonix-camera-mounts/    
+  
 
 ## Computing platform 
 Jetson Xavier vs TX2:    
