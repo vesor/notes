@@ -54,6 +54,7 @@ https://item.taobao.com/item.htm?spm=a230r.1.14.235.2aaa27b9f9SVw1&id=5319779439
 
 ## manual about 波束角
 https://pan.baidu.com/s/14VxzuB--QjwT2GkfiAr8GA   
+https://www.mouser.cn/datasheet/2/830/SCXL-MaxSonar-WRS_Datasheet-1534921.pdf    
 https://www.mouser.cn/datasheet/2/830/HRLV-MaxSonar-EZ_Datasheet-1129373.pdf    
 
 ## 360 view calibration
