@@ -15,6 +15,12 @@ I/O solution:
 2) PCI-E:     
 3) MIPI-CSI: per hardware design, can directly attach to ISP/GPU/VideoEncoder.    
 
+## GMSL camera
+Support Drive PX2: https://leopardimaging.com/product/li-ar0231-gmsl/   
+
+## sekonix camera mount 
+https://autonomous.home.blog/2019/03/23/sekonix-camera-mounts/    
+
 ## camera solution provider   
 https://www.stonkam.com   
 http://www.at-electronic.com/3D-avm.html   
@@ -45,6 +51,8 @@ fish eye car camera, no water proof/HDR: https://store.d3engineering.com/product
 
 ## Ultra Sonic
 https://www.maxbotix.com/SelectionGuide/Selection-Guide-Outdoor.htm   
+https://www.maxbotix.com/documents/HRXL-MaxSonar-WR_Datasheet.pdf   
+
 
 https://item.taobao.com/item.htm?spm=a230r.1.14.47.220b7c35QEgOIf&id=576632343954&ns=1&abbucket=4#detail   
 https://detail.tmall.com/item.htm?id=557355747652&ali_refid=a3_430583_1006:1109983619:N:jIIyYWWP0I+vN1DJDAjepm6QaIsSwyEq:c6246d682fc88a19ee09bda72eb4fc97&ali_trackid=1_c6246d682fc88a19ee09bda72eb4fc97&spm=a230r.1.14.1   
@@ -67,9 +75,6 @@ For the chessboard cloth: search 全景调试布 in taobao
 Thoughts: for intrinsic, go normal opencv way. for extrinsic, instead of focus on near points, should also consider far away points (5 meters).   
 Utilize lidar and poles: 1) install lidar, check lidar rotation: for example find 4 poles, make car paralle/orth to poles, then two pole's x or tow pole's y should be same. 2) use lidar to measure pole x,y (assume z known, use camera to capture pole's intersection point against ground floor. So we got world/image points pair to calculate extrinsics.    
 
-# sekonix camera mount 
-https://autonomous.home.blog/2019/03/23/sekonix-camera-mounts/    
-  
 # BYD Qin 电路图
 https://max.book118.com/html/2018/0106/147547124.shtm    
 https://max.book118.com/html/2015/0212/12413255.shtm   
