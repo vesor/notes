@@ -5,7 +5,7 @@ surronding view tech review: http://www.autochinazh.com/news/201705171468.html
 
 
 ## Camera solution
-camera modules: Lens, VCM(focus control, if any), Sensor IC (CMOS/CCD), ISP, Serializer(For HD data).   
+camera modules(摄像头模组): Lens, VCM(focus control, if any), Sensor IC (CMOS/CCD), ISP, Serializer(For HD data).   
 
 camera data transfer: CVBS/AHD/LVDS   
 LVDS serializer: 1) MAXIM: GMSL 2) TI: FPD LINK (II/III)  
