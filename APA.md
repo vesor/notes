@@ -96,3 +96,8 @@ https://github.com/lewes6369/TensorRT-Yolov3
 
 Official tensorflow on tensorrt discussion: 
 https://github.com/tensorflow/models/issues/5695   
+
+## software on Qualcomm
+https://towardsdatascience.com/benchmarking-hardware-for-cnn-inference-in-2018-1d58268de12a   
+https://pdfs.semanticscholar.org/fb17/32a1476798c42a0123aaf127036bf8daef09.pdf   
+https://arxiv.org/pdf/1802.10019.pdf   
