@@ -70,6 +70,8 @@ Utilize lidar and poles: 1) install lidar, check lidar rotation: for example fin
 # sekonix camera mount 
 https://autonomous.home.blog/2019/03/23/sekonix-camera-mounts/    
   
+# BYD Qin 电路图
+https://max.book118.com/html/2018/0106/147547124.shtm    
 
 ## Computing platform 
 Jetson Xavier vs TX2:    
