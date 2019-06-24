@@ -72,6 +72,7 @@ https://autonomous.home.blog/2019/03/23/sekonix-camera-mounts/
   
 # BYD Qin 电路图
 https://max.book118.com/html/2018/0106/147547124.shtm    
+https://max.book118.com/html/2015/0212/12413255.shtm   
 
 ## Computing platform 
 Jetson Xavier vs TX2:    
