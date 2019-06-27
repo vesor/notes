@@ -38,6 +38,7 @@ https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-12138924093.17.78375d1ev9cq
 
 ## Xavier camera input board:
 https://store.d3engineering.com/product/designcore-nvidia-jetson-serdes-card/       
+SD video input: https://rugged.com/ev178-development-system-a178-thunder   
 
 ## Low cost 360 view solution:   
 https://item.jd.com/14604887043.html#crumb-wrap   
