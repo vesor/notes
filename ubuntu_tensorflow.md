@@ -1,5 +1,13 @@
 ## install tensorflow
 
+Refer to 
+1) https://www.pytorials.com/how-to-install-tensorflow-gpu-with-cuda-9-2-for-python-on-ubuntu/2/ 
+2) https://devtalk.nvidia.com/default/topic/1049100/general/tensorflow-installation-on-drive-px2-/   
+
+CUDA 9.2 and cudnn is installed using Nvidia's sdkmanager.   
+
+nccl_2.2.13 installed as 1).   
+
 bazel version: see https://www.tensorflow.org/install/source   
 use bazel-0.19.2   
 
@@ -14,9 +22,6 @@ Checkout tensorflow source code (1.13.1):
 Config:
     
     ./configure
-
-Refer to https://www.pytorials.com/how-to-install-tensorflow-gpu-with-cuda-9-2-for-python-on-ubuntu/2/ 
-and https://devtalk.nvidia.com/default/topic/1049100/general/tensorflow-installation-on-drive-px2-/   
 
 When config cuda path, if it search for xxx/lib64 but your install is in xxx/lib, then create a symbolic for it.
 
