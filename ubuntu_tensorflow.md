@@ -1,15 +1,15 @@
 ## install tensorflow
 
 Refer to 
-0) https://www.tensorflow.org/install/source   
-1) https://www.pytorials.com/how-to-install-tensorflow-gpu-with-cuda-9-2-for-python-on-ubuntu/2/ 
-2) https://devtalk.nvidia.com/default/topic/1049100/general/tensorflow-installation-on-drive-px2-/   
+1) https://www.tensorflow.org/install/source   
+2) https://www.pytorials.com/how-to-install-tensorflow-gpu-with-cuda-9-2-for-python-on-ubuntu/2/ 
+3) https://devtalk.nvidia.com/default/topic/1049100/general/tensorflow-installation-on-drive-px2-/   
 
-May need install some pip package as in 0)
+May need install some pip package as in 1)
 
 CUDA 9.2 and cudnn is installed using Nvidia SDK Manager (which is used to install software on DrivePX2).   
 
-nccl_2.2.13 installed as 1).   
+nccl_2.2.13 installed as 2).   
 
 bazel version: see https://www.tensorflow.org/install/source   
 use bazel-0.19.2   
