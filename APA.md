@@ -17,6 +17,8 @@ I/O solution:
 
 ## GMSL camera
 Support Drive PX2: https://leopardimaging.com/product/li-ar0231-gmsl/   
+https://item.taobao.com/item.htm?spm=a230r.1.14.140.566a7aa2hUxG4G&id=595699702527&ns=1&abbucket=1#detail   
+
 
 ## sekonix camera mount 
 https://autonomous.home.blog/2019/03/23/sekonix-camera-mounts/    
