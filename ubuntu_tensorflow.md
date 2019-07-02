@@ -29,3 +29,8 @@ Build:
     
     bazel build --config=opt --config=cuda //tensorflow/tools/pip_package:build_pip_package   
 
+Build wheel:
+
+    bazel-bin/tensorflow/tools/pip_package/build_pip_package tensorflow_pkg
+    
+whl file will be generated in tensorflow_pkg
