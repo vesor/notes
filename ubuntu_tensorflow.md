@@ -4,7 +4,7 @@ Refer to
 1) https://www.pytorials.com/how-to-install-tensorflow-gpu-with-cuda-9-2-for-python-on-ubuntu/2/ 
 2) https://devtalk.nvidia.com/default/topic/1049100/general/tensorflow-installation-on-drive-px2-/   
 
-CUDA 9.2 and cudnn is installed using Nvidia's sdkmanager.   
+CUDA 9.2 and cudnn is installed using Nvidia SDK Manager (which is used to install software on DrivePX2).   
 
 nccl_2.2.13 installed as 1).   
 
