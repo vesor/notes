@@ -65,6 +65,7 @@ http://www.audiowell.com/product-detail.aspx?id=275
 
 ## ultrasonic solution
 https://item.taobao.com/item.htm?spm=a230r.1.14.235.2aaa27b9f9SVw1&id=531977943989&ns=1&abbucket=4#detail   
+https://item.taobao.com/item.htm?spm=a230r.1.14.33.40d7643eNT1lQ9&id=542093316096&ns=1&abbucket=4#detail   
 
 ## ultrasonic board design
 https://item.taobao.com/item.htm?spm=a1z10.5-c-s.w4002-10209283947.23.acc8563305d56u&id=43957093380    
