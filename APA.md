@@ -56,6 +56,7 @@ fish eye car camera, no water proof/HDR: https://store.d3engineering.com/product
 https://www.maxbotix.com/SelectionGuide/Selection-Guide-Outdoor.htm   
 https://www.maxbotix.com/documents/HRXL-MaxSonar-WR_Datasheet.pdf   
 
+http://www.dfrobot.com.cn/goods-834.html   
 
 https://item.taobao.com/item.htm?spm=a230r.1.14.47.220b7c35QEgOIf&id=576632343954&ns=1&abbucket=4#detail   
 https://detail.tmall.com/item.htm?id=557355747652&ali_refid=a3_430583_1006:1109983619:N:jIIyYWWP0I+vN1DJDAjepm6QaIsSwyEq:c6246d682fc88a19ee09bda72eb4fc97&ali_trackid=1_c6246d682fc88a19ee09bda72eb4fc97&spm=a230r.1.14.1   
@@ -70,10 +71,9 @@ https://item.taobao.com/item.htm?spm=a1z10.5-c-s.w4002-10209283947.23.acc8563305
 
 ## manual about 波束角
 https://pan.baidu.com/s/14VxzuB--QjwT2GkfiAr8GA   
-https://www.mouser.cn/datasheet/2/830/SCXL-MaxSonar-WRS_Datasheet-1534921.pdf    
-https://www.mouser.cn/datasheet/2/830/HRLV-MaxSonar-EZ_Datasheet-1129373.pdf    
 
-## 360 view calibration
+
+## 360 view camera calibration
 http://blog.sina.cn/dpool/blog/s/blog_54af9e280102w1v8.html?md=gd   
 Ref the patents: http://www.at-electronic.com/assets/%E5%AE%89%E6%99%93%E7%A7%91%E6%8A%80_%E4%BC%81%E4%B8%9A%E5%8F%8A%E4%BA%A7%E5%93%81%E7%B3%BB%E5%88%97%E7%AE%80%E4%BB%8B_201810.pdf    
 https://v.qq.com/x/page/b0504qx2bpp.html    
