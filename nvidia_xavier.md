@@ -1,5 +1,5 @@
 # related docs:
-https://developer.nvidia.com/embedded/downloads   
+https://developer.nvidia.com/embedded/downloads#?search=Jetson%20AGX%20Xavier      
 
 NVIDIA Jetson AGX Xavier Camera Module Hardware Design Guide 
 
