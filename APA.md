@@ -89,6 +89,7 @@ https://max.book118.com/html/2014/0709/9017795.shtm
 
 ## BYD modification
 https://detail.1688.com/offer/547257155926.html?spm=a261b.2187593.1998088710.58.25203833Resb1b   
+https://jared.geek.nz/2015/apr/driving-fpdlink-displays   
 
 ## Computing platform 
 Jetson Xavier vs TX2:    
