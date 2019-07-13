@@ -37,3 +37,20 @@ Build wheel:
     bazel-bin/tensorflow/tools/pip_package/build_pip_package tensorflow_pkg
     
 whl file will be generated in tensorflow_pkg
+
+## Python3
+
+Err about "serialized_options":
+
+The protobuf installed via pip3 seems have wrong version. 
+Download protobuf source, follow the instructions to install.
+
+I use protobuf 3.6.1, ./configure && make && make install for protoc (optional?)
+Then follow https://github.com/protocolbuffers/protobuf/tree/master/python 
+
+    python setup.py build
+    python setup.py test
+    python setup.py install
+    
+    
+
