@@ -42,10 +42,10 @@ whl file will be generated in tensorflow_pkg
 
 Err about "serialized_options":
 
-The protobuf installed via pip3 seems have wrong version. 
+The protobuf installed via pip3 seems have wrong version.    
 Download protobuf source, follow the instructions to install.
 
-I use protobuf 3.6.1, ./configure && make && make install for protoc (optional?)
+I use protobuf 3.6.1, ./configure && make && make install for protoc (optional?)   
 Then follow https://github.com/protocolbuffers/protobuf/tree/master/python 
 
     python setup.py build
