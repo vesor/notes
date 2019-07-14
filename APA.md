@@ -20,6 +20,9 @@ Support Drive PX2: https://leopardimaging.com/product/li-ar0231-gmsl/
 Lowcost provider 森云智能 https://item.taobao.com/item.htm?spm=a230r.1.14.140.566a7aa2hUxG4G&id=595699702527&ns=1&abbucket=1#detail   
 https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-21795474286.7.22ea2220IOJaN8&id=595611177862   
 
+## FPD LINK
+http://www.ti.com/lit/an/slyt581/slyt581.pdf   
+
 ## sekonix camera mount 
 https://autonomous.home.blog/2019/03/23/sekonix-camera-mounts/    
 
