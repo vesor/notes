@@ -121,3 +121,6 @@ https://github.com/tensorflow/models/issues/5695
 https://towardsdatascience.com/benchmarking-hardware-for-cnn-inference-in-2018-1d58268de12a   
 https://pdfs.semanticscholar.org/fb17/32a1476798c42a0123aaf127036bf8daef09.pdf   
 https://arxiv.org/pdf/1802.10019.pdf   
+
+## intel a3900 series
+https://www.intel.com/content/dam/www/public/us/en/documents/solution-briefs/intel-sb-gordon-peak-v4-13132-3.pdf    
