@@ -127,3 +127,6 @@ https://arxiv.org/pdf/1802.10019.pdf
 
 ## intel a3900 series
 https://www.intel.com/content/dam/www/public/us/en/documents/solution-briefs/intel-sb-gordon-peak-v4-13132-3.pdf    
+
+## NXP i.MX8 series
+https://community.nxp.com/servlet/JiveServlet/downloadBody/334912-102-2-276174/AMF-CNS-T2710.pdf   
