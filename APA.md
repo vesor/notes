@@ -130,4 +130,5 @@ https://www.intel.com/content/dam/www/public/us/en/documents/solution-briefs/int
 
 ## NXP i.MX8 series
 https://community.nxp.com/servlet/JiveServlet/downloadBody/334912-102-2-276174/AMF-CNS-T2710.pdf   
+i.MX deeplearning: https://www.nxp.com/docs/en/nxp/user-guides/UM11226.pdf   
 https://www.embedded-vision.com/platinum-members/embedded-vision-alliance/embedded-vision-training/documents/pages/resource-constrained-deep-learning   
