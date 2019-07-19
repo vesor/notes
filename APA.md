@@ -2,7 +2,7 @@
 ## APA system compare   
 自动泊车谁最好用？Model 3/小鹏G3/威马EX5对比 https://hj.pcauto.com.cn/article/235889.html   
 surronding view tech review: http://www.autochinazh.com/news/201705171468.html    
-
+智能泊车技术现状 https://www.ednchina.com/news/20170605auto.html   
 
 ## Camera solution
 camera modules(摄像头模组): Lens, VCM(focus control, if any), Sensor IC (CMOS/CCD), ISP, Serializer(For HD data).   
