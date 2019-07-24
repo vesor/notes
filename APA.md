@@ -109,6 +109,10 @@ https://www.hotchips.org/wp-content/uploads/hc_archives/hc29/HC29.20-Tutorials-P
 Nvidia Drive Series:   
 https://en.wikipedia.org/wiki/Nvidia_Drive   
 
+## FPGA
+Xilinx Zynq
+Intel Automotive FPGA
+
 ## software on nvidia platform
 Yolov3 reaches 20fps when use tensor core: 
 https://devtalk.nvidia.com/default/topic/1049402/deepstream-sdk-on-jetson/deepstream-yolo-app-performance-vs-tensor-core-optimized-yolo-darknet/    
