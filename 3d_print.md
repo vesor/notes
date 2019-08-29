@@ -7,7 +7,8 @@ Design Options for Screw Threads  https://formlabs.com/blog/adding-screw-threads
 3D Printing vs CNC Machining  https://www.3dnatives.com/en/3d-printing-vs-cnc-160320184/   
 
 ## service
-www.wenext.cn   
-http://www.yungc.com/   
-速加网
-魔猴网
+www.wenext.cn (深圳)     
+http://www.yungc.com/    
+速加网 (深圳)   
+魔猴网 (北京)   
+印梦园 (上海)   
