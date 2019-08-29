@@ -88,7 +88,7 @@ Utilize lidar and poles: 1) install lidar, check lidar rotation: for example fin
 ## 360 view algorithmn
 fisheye to cubemap: https://stackoverflow.com/questions/29678510/convert-21-equirectangular-panorama-to-cube-map   
 fisheye to perspective: http://paulbourke.net/dome/fish2/   
-
+fisheye representation: http://paulbourke.net/miscellaneous/360x180/   
 
 ## BYD Qin 电路图
 https://max.book118.com/html/2018/0106/147547124.shtm    
