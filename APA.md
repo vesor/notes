@@ -85,6 +85,11 @@ For the chessboard cloth: search 全景调试布 in taobao
 Thoughts: for intrinsic, go normal opencv way. for extrinsic, instead of focus on near points, should also consider far away points (5 meters).   
 Utilize lidar and poles: 1) install lidar, check lidar rotation: for example find 4 poles, make car paralle/orth to poles, then two pole's x or tow pole's y should be same. 2) use lidar to measure pole x,y (assume z known, use camera to capture pole's intersection point against ground floor. So we got world/image points pair to calculate extrinsics.    
 
+## 360 view algorithmn
+fisheye to cubemap: https://stackoverflow.com/questions/29678510/convert-21-equirectangular-panorama-to-cube-map   
+fisheye to perspective: http://paulbourke.net/dome/fish2/   
+
+
 ## BYD Qin 电路图
 https://max.book118.com/html/2018/0106/147547124.shtm    
 https://max.book118.com/html/2015/0212/12413255.shtm   
