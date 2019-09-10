@@ -27,6 +27,12 @@ https://gist.github.com/gachiemchiep/6461895ab494af1e584d67d71e086dbb
     -D PYTHON_EXECUTABLE=/usr/bin/python \
     -D CUDA_NVCC_FLAGS="-D_FORCE_INLINES" ..
 
+Patch:
+   https://jkjung-avt.github.io/opencv3-on-tx2/   
+   
+   To enable opengl support, need to modify cuda_gl_interop.h
+
+
 Run:
 
     make -j12
