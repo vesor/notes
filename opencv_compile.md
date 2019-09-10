@@ -28,10 +28,13 @@ https://gist.github.com/gachiemchiep/6461895ab494af1e584d67d71e086dbb
     -D CUDA_NVCC_FLAGS="-D_FORCE_INLINES" ..
 
 Patch:
-   https://jkjung-avt.github.io/opencv3-on-tx2/   
+   https://devtalk.nvidia.com/default/topic/1007290/jetson-tx2/building-opencv-with-opengl-support-/post/5141945/#5141945     
    
    To enable opengl support, need to modify cuda_gl_interop.h
-
+   And do some symbolink.
+   
+      $ cd /usr/lib/aarch64-linux-gnu/
+      $ sudo ln -sf mesa/libGL.so libGL.so
 
 Run:
 
