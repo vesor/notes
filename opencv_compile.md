@@ -34,7 +34,7 @@ Patch:
    And do some symbolink.
    
       $ cd /usr/lib/aarch64-linux-gnu/
-      $ sudo ln -sf mesa/libGL.so libGL.so
+      $ sudo ln -sf /usr/lib/libGL.so libGL.so
 
 Run:
 
