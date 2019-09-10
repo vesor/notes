@@ -1,27 +1,31 @@
 
 # Compile and install opencv for both python2 and python3
-
-http://pythonopencv.com/install-opencv-3-3-and-python2-7-3-5-bindings-on-ubuntu-16-04/
+   
+https://gist.github.com/gachiemchiep/6461895ab494af1e584d67d71e086dbb   
 
     cmake -D CMAKE_BUILD_TYPE=RELEASE \
-     -D CMAKE_INSTALL_PREFIX=/usr/local \
-     -D WITH_IPP=OFF \
-     -D CUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda-8.0 \
-     -D WITH_CUDA=ON \
-     -D ENABLE_FAST_MATH=1 \
-     -D CUDA_FAST_MATH=1 \
-     -D WITH_CUBLAS=1 \
-     -D INSTALL_PYTHON_EXAMPLES=OFF \
-     -D INSTALL_C_EXAMPLES=OFF \
-     -D PYTHON_EXECUTABLE=/usr/bin/python \
-     -D ENABLE_PRECOMPILED_HEADERS=OFF \
-     -D BUILD_EXAMPLES=OFF ..
-
-
-Optional:
-
-    -D WITH_IPP=ON \
-    -D IPPROOT=/media/vesor/DATA/opencv-3.3.0/3rdparty/ippicv/download \
+    -D CMAKE_INSTALL_PREFIX=/usr/local \
+    -D WITH_CUDA=ON \
+    -D CUDA_GENERATION=Auto \
+    -D ENABLE_FAST_MATH=1 \
+    -D CUDA_FAST_MATH=1 \
+    -D WITH_CUBLAS=ON \
+    -D WITH_TBB=ON \
+    -D WITH_V4L=ON \
+    -D WITH_QT=ON \
+    -D WITH_OPENGL=ON \
+    -D BUILD_PERF_TESTS=OFF \
+    -D BUILD_TESTS=OFF \
+    -D BUILD_TIFF=ON \
+    -D ENABLE_CXX11=ON \
+    -D WITH_PROTOBUF=OFF \
+    -D BUILD_opencv_legacy=OFF \
+    -D ENABLE_PRECOMPILED_HEADERS=OFF \
+    -D INSTALL_PYTHON_EXAMPLES=ON \
+    -D INSTALL_C_EXAMPLES=OFF \
+    -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib-3.3.0/modules \
+    -D PYTHON_EXECUTABLE=/usr/bin/python \
+    -D CUDA_NVCC_FLAGS="-D_FORCE_INLINES" ..
 
 Run:
 
