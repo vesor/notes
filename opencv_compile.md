@@ -57,7 +57,7 @@ Run again:
 
 
 ## Opencv 4.1.1
-To enable opengl, install qt-default and libqt5opengl5 using apt.   
+To enable opengl, install qt-default (or qt5-default) and libqt5opengl5 using apt.   
 And if can't download face_landmark_model.dat, download it manually and modify contrib/face/CMakeLists.txt   
 WITH_PROTOBUF should be on to enable opencv_dnn   
 
