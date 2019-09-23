@@ -94,3 +94,15 @@ WITH_PROTOBUF should be on to enable opencv_dnn
      -D BUILD_opencv_python3=OFF \
      -D PYTHON_EXECUTABLE=/usr/bin/python2
       
+## Switch different opencv in python
+
+First locate the cv2.so you want to use, for example:
+
+      /usr/local/opencv2413/lib/python2.7/dist-packages/cv2.so
+      /usr/local/opencv411/lib/python2.7/dist-packages/cv2/python-2.7/cv2.so
+
+Then config PYTHONPATH to add the path:
+
+      export PYTHONPATH=/usr/local/opencv411/lib/python2.7/dist-packages:$PYTHONPATH
+      
+      
