@@ -1,4 +1,9 @@
 
+## Latency 
+
+Msg serailization/deserialization, memory copy
+
+
 http://wiki.ros.org/shm_transport
 
 https://discourse.ros.org/t/tzc-efficient-inter-process-communication-for-robotics-middleware-with-partial-serialization/6264   
