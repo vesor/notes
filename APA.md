@@ -119,15 +119,7 @@ Xilinx Zynq
 Intel Automotive FPGA
 
 ## software on nvidia platform
-Yolov3 reaches 20fps when use tensor core: 
-https://devtalk.nvidia.com/default/topic/1049402/deepstream-sdk-on-jetson/deepstream-yolo-app-performance-vs-tensor-core-optimized-yolo-darknet/    
-Tensor core vs cuda core: 
-https://stackoverflow.com/questions/47335027/what-is-the-difference-between-cuda-vs-tensor-cores   
-
-https://github.com/lewes6369/TensorRT-Yolov3   
-
-Official tensorflow on tensorrt discussion: 
-https://github.com/tensorflow/models/issues/5695   
+refer to nvidia_xavier.md     
 
 ## software on Qualcomm
 https://towardsdatascience.com/benchmarking-hardware-for-cnn-inference-in-2018-1d58268de12a   
