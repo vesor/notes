@@ -23,12 +23,13 @@ For rendering, the dwRenderXXX api is not open source.
 
 # ref projects
 
-https://github.com/jkjung-avt/tf_trt_models   
+https://github.com/jkjung-avt/tf_trt_models     
 
-Yolov3 reaches 20fps when use tensor core: https://devtalk.nvidia.com/default/topic/1049402/deepstream-sdk-on-jetson/deepstream-yolo-app-performance-vs-tensor-core-optimized-yolo-darknet/
-Tensor core vs cuda core: https://stackoverflow.com/questions/47335027/what-is-the-difference-between-cuda-vs-tensor-cores
+Yolov3 reaches 20fps when use tensor core: https://devtalk.nvidia.com/default/topic/1049402/deepstream-sdk-on-jetson/deepstream-yolo-app-performance-vs-tensor-core-optimized-yolo-darknet/   
+Tensor core vs cuda core: https://stackoverflow.com/questions/47335027/what-is-the-difference-between-cuda-vs-tensor-cores   
 
-https://github.com/lewes6369/TensorRT-Yolov3
+https://github.com/lewes6369/TensorRT-Yolov3   
+https://github.com/shyamsastha/Realtime-object-detection   
 
-Official tensorflow on tensorrt discussion: https://github.com/tensorflow/models/issues/5695
+Official tensorflow on tensorrt discussion: https://github.com/tensorflow/models/issues/5695   
 
