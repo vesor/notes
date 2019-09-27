@@ -9,7 +9,7 @@ Image used: 1000x750.jpg
 | CUDA cores / Frequency | 3584 @ 1.58GHz | 3584 @ 1.61 GHz | 2048 @ 1.70 GHz  | 1152 @ 1.29 GHz | 256 @ 1.27 GHz | 512 @1.5 GHz |
 | GPU Memory / Bus width | 5505 Mhz @ 352-bit | 5505 Mhz @ 352-bit | 4004 Mhz @ 256-bit  | 3003 Mhz @ 128-bit  | 1600 Mhz @ 128-bit | 1377 Mhz @ 256-bit |
 | CUDA driver / runtime version | 9.0 / 9.0 | 9.0 / 8.0  | 9.1 / 9.0 | 9.0 / 9.0 | 9.0 / 9.0 | 10.0 / 10.0 |
-| CPU | i7-8700K @ 3.70GHz | i7-6850K @ 3.60GHz |  i7-7700HQ @ 0.8-4.0GHz | arm  | arm | arm @ 1.19-2.265GHz |
+| CPU | i7-8700K @ 3.70GHz | i7-6850K @ 2.345-4.0GHz |  i7-7700HQ @ 0.8-4.0GHz | arm  | arm | arm @ 1.19-2.265GHz |
 
 CPU info: sudo lshw -c cpu   
 size: 1190MHz   
