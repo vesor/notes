@@ -29,7 +29,8 @@ Yolov3 reaches 20fps when use tensor core: https://devtalk.nvidia.com/default/to
 Tensor core vs cuda core: https://stackoverflow.com/questions/47335027/what-is-the-difference-between-cuda-vs-tensor-cores   
 
 https://github.com/lewes6369/TensorRT-Yolov3   
-https://github.com/shyamsastha/Realtime-object-detection   
+https://github.com/shyamsastha/Realtime-object-detection  
+https://github.com/ardianumam/Tensorflow-TensorRT   
 
 Official tensorflow on tensorrt discussion: https://github.com/tensorflow/models/issues/5695   
 
