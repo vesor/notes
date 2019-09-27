@@ -4,17 +4,20 @@
 
 Image used: 1000x750.jpg
 
-| |  GTX1080Ti | GTX1080Ti | GTX1070 | Drive PX2 dGPU | Drive PX2 iGPU
-|---|---|---|---|---|---|
-| CUDA cores / Frequency | 3584 @ 1.58GHz | 3584 @ 1.61 GHz | 2048 @ 1.70 GHz  | 1152 @ 1.29 GHz | 256 @ 1.27 GHz |
-| GPU Memory / Bus width | 5505 Mhz @ 352-bit | 5505 Mhz @ 352-bit | 4004 Mhz @ 256-bit  | 3003 Mhz @ 128-bit  | 1600 Mhz @ 128-bit |
-| CUDA driver / runtime version | 9.0 / 9.0 | 9.0 / 8.0  | 9.1 / 9.0 | 9.0 / 9.0 | 9.0 / 9.0 |
-| CPU | i7-8700K @ 3.70GHz | i7-6850K @ 3.60GHz |  i7-7700HQ @ 2.80GHz | arm  | arm |
+| |  GTX1080Ti | GTX1080Ti | GTX1070 | Drive PX2 dGPU | Drive PX2 iGPU | Jetson Xavier |
+|---|---|---|---|---|---|---|
+| CUDA cores / Frequency | 3584 @ 1.58GHz | 3584 @ 1.61 GHz | 2048 @ 1.70 GHz  | 1152 @ 1.29 GHz | 256 @ 1.27 GHz | 512 @1.5 GHz |
+| GPU Memory / Bus width | 5505 Mhz @ 352-bit | 5505 Mhz @ 352-bit | 4004 Mhz @ 256-bit  | 3003 Mhz @ 128-bit  | 1600 Mhz @ 128-bit | 1377 Mhz @ 256-bit |
+| CUDA driver / runtime version | 9.0 / 9.0 | 9.0 / 8.0  | 9.1 / 9.0 | 9.0 / 9.0 | 9.0 / 9.0 | 10.0 / 10.0 |
+| CPU | i7-8700K @ 3.70GHz | i7-6850K @ 3.60GHz |  i7-7700HQ @ 0.8-4.0GHz | arm  | arm | arm @ 1.19-2.265GHz |
+
+CPU info: sudo lshw -c cpu   
+size: 1190MHz   
+capacity: 2265MHz   
 
 
-
-|   | GTX1080Ti PC1 | GTX1080Ti PC2 | GTX1070 Notebook | Drive PX2 dGPU | Drive PX2 iGPU |
-|---|---|---|---|---|---|
+|   | GTX1080Ti PC1 | GTX1080Ti PC2 | GTX1070 Notebook | Drive PX2 dGPU | Drive PX2 iGPU | Jetson Xavier |
+|---|---|---|---|---|---|---|
 | **tensorflow model/object_detection** |
 | ssd_mobile_v1_2017 | 28ms |   | 40-45ms  | 300-330ms  | |
 | ssd_mobile_v1_2018 | 15ms |   | 19-24ms  | 120-150ms  | 134-160ms |
@@ -37,6 +40,9 @@ Image used: 1000x750.jpg
 | **py-faster-rcnn** |
 | ZF | | | 42ms |  | |
 | VGG16 | | | 97ms |  | |
+| **sampleFasterRCNN** |
+| VGG16 | | | |  | | 215 ms |
+| VGG16 DLA | | | |  | | 146 ms |
 | **tensorrt sample** |
 | faster RCNN (VGG16) | | | 90ms | 270ms | |
 | **tensorflow model/deeplab** |
@@ -105,7 +111,9 @@ Proj: deeplab
 |---|---|
 | v3_pascal | deeplabv3_mnv2_pascal_train_aug_2018_01_29 |
 
+Proj: sampleFasterRCNN
 
+https://github.com/NVIDIA/TensorRT/tree/release/5.1/samples/opensource/sampleFasterRCNN   
 
 
 ### How to run
