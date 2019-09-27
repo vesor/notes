@@ -114,7 +114,7 @@ Proj: deeplab
 Proj: sampleFasterRCNN
 
 https://github.com/NVIDIA/TensorRT/tree/release/5.1/samples/opensource/sampleFasterRCNN   
-
+NOTE: the sample is fixed to 500x375 image size, if you change the size you can't get any detection results.
 
 ### How to run
 
