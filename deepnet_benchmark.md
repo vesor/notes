@@ -41,8 +41,8 @@ capacity: 2265MHz
 | ZF | | | 42ms |  | |
 | VGG16 | | | 97ms |  | |
 | **sampleFasterRCNN** |
-| VGG16 | | | |  | | 215 ms |
-| VGG16 DLA | | | |  | | 146 ms |
+| VGG16** | | | |  | | 215 ms |
+| VGG16 DLA** | | | |  | | 146 ms |
 | **tensorrt sample** |
 | faster RCNN (VGG16) | | | 90ms | 270ms | |
 | **tensorflow model/deeplab** |
@@ -114,23 +114,7 @@ Proj: deeplab
 Proj: sampleFasterRCNN
 
 https://github.com/NVIDIA/TensorRT/tree/release/5.1/samples/opensource/sampleFasterRCNN   
-NOTE: the sample is fixed to 500x375 image size, if you change the size you can't get any detection results.
-
-### How to run
-
-tensorflow models/object_detection
-
-1) Export to frozen graph:
-
-remember to add PYTHONPATH
-
-model.ckpt is perfix for model.ckpt.xxxxx files
-
-python object_detection/export_inference_graph.py \
-    --input_type=image_tensor \
-    --pipeline_config_path=object_detection/export_models/ssd_mobilenet_v1_coco_2018_01_28/pipeline.config \
-    --trained_checkpoint_prefix=object_detection/export_models/ssd_mobilenet_v1_coco_2018_01_28/model.ckpt \
-    --output_directory=object_detection/export_models
+**NOTE**: the sample is fixed to 500x375 image size, if you change the size you can't get any detection results.
 
 
 ### Thoughts
