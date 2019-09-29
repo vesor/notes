@@ -133,3 +133,42 @@ https://www.intel.com/content/dam/www/public/us/en/documents/solution-briefs/int
 https://community.nxp.com/servlet/JiveServlet/downloadBody/334912-102-2-276174/AMF-CNS-T2710.pdf   
 i.MX deeplearning: https://www.nxp.com/docs/en/nxp/user-guides/UM11226.pdf   
 https://www.embedded-vision.com/platinum-members/embedded-vision-alliance/embedded-vision-training/documents/pages/resource-constrained-deep-learning   
+
+
+# MISC
+
+
+### Thoughts
+
+tracking -> prediction ----> easier region/class detection
+
+big/small network : big network for detection, small network for tracking/prediction
+
+attention (focus region round robin) / coarse/fine detection interval ----> reduce detection time 
+
+Spatial iteration of attention: Detect high level bbox first (car), then detect low level bbox (wheels, lights, brand, etc.)
+
+### lane detection
+
+https://github.com/MaybeShewill-CV/lanenet-lane-detection
+
+https://github.com/SeokjuLee/VPGNet
+
+https://github.com/experiencor/semantic-lane-detection
+
+https://www.mapillary.com/
+
+https://arxiv.org/pdf/1807.01726.pdf
+
+### edge detection
+
+https://arxiv.org/pdf/1612.02103.pdf
+
+
+### selfdriving projects
+
+https://github.com/CPFL/Autoware
+
+https://github.com/ApolloAuto/apollo
+
+
