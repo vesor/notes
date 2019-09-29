@@ -60,15 +60,6 @@ For faster/mask rcnn, reduce number of classes will improve the infer speed.
 
 For faster/mask rcnn, low proposal can improve infer speed, please compare pipeline.config of the lowproposal config.
 
-### TODO
-
-label person with bike, instead of considering it as bike.
-
-label empty (background) images.
-
-label frames which perform bad.
-
-
 ### related projects 
 
 tensorflow model/object_detection
@@ -115,39 +106,5 @@ Proj: sampleFasterRCNN
 
 https://github.com/NVIDIA/TensorRT/tree/release/5.1/samples/opensource/sampleFasterRCNN   
 **NOTE**: the sample is fixed to 500x375 image size, if you change the size you can't get any detection results.
-
-
-### Thoughts
-
-tracking -> prediction ----> easier region/class detection
-
-big/small network : big network for detection, small network for tracking/prediction
-
-attention (focus region round robin) / coarse/fine detection interval ----> reduce detection time 
-
-Spatial iteration of attention: Detect high level bbox first (car), then detect low level bbox (wheels, lights, brand, etc.)
-
-### lane detection
-
-https://github.com/MaybeShewill-CV/lanenet-lane-detection
-
-https://github.com/SeokjuLee/VPGNet
-
-https://github.com/experiencor/semantic-lane-detection
-
-https://www.mapillary.com/
-
-https://arxiv.org/pdf/1807.01726.pdf
-
-### edge detection
-
-https://arxiv.org/pdf/1612.02103.pdf
-
-
-### selfdriving projects
-
-https://github.com/CPFL/Autoware
-
-https://github.com/ApolloAuto/apollo
 
 
