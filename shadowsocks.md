@@ -1,10 +1,20 @@
 # For SSH
-create a socks5 proxy using a ssh server:
+1) create a socks5 proxy using a ssh server:
 
 	ssh -N -f -D 1080 weizhe@172.16.20.20
 
-go to github for chrome proxy plugin: https://github.com/FelisCatus/SwitchyOmega/releases   
-then set proxy to 127.0.0.1:1080   
+2) select one of the two methods:
+
+a) launch chrome using socks5 proxy: 
+
+	chrome --proxy-server="socks5://127.0.0.1:1080"
+
+then install SwitchyOmega from google store
+
+or b) go to github: https://github.com/FelisCatus/SwitchyOmega/releases   
+download crx files and install.
+
+3) then set SwitchyOmega proxy to 127.0.0.1:1080   
 
 
 # install shadowsocks server
