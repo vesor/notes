@@ -16,7 +16,7 @@ download crx files and install.
 
 3) then set SwitchyOmega proxy to 127.0.0.1:1080   
 
-# For VMWare
+### For VMWare
 To access the socks5 proxy on guest from host, set vmware network to Bridge (Not NAT).   
 Find guest machine's ip address by run ipconfig in guest.   
 Disable Windows Defenter Firewall on guest. (Ping guest ip from host to check.)   
