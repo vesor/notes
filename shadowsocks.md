@@ -16,6 +16,14 @@ download crx files and install.
 
 3) then set SwitchyOmega proxy to 127.0.0.1:1080   
 
+# For VMWare
+Config NAT mapping so that host can access virtual machine's service.   
+https://www.vmware.com/support/ws55/doc/ws_net_nat_advanced.html   
+
+For Ubuntu host, config file is /etc/vmware/vmnet8/nat/nat.conf   
+The [incomingtcp] Section:   
+
+	2080 = xx.xx.xx.xx:1080
 
 # install shadowsocks server
 	sudo apt-get install python-setuptools
