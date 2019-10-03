@@ -1,7 +1,7 @@
 # For SSH
 1) create a socks5 proxy using a ssh server:
 
-	ssh -N -f -D 1080 weizhe@172.16.20.20
+	ssh -N -D 1080 weizhe@172.16.20.20
 
 2) select one of the two methods:
 
@@ -17,13 +17,16 @@ download crx files and install.
 3) then set SwitchyOmega proxy to 127.0.0.1:1080   
 
 # For VMWare
-Config NAT mapping so that host can access virtual machine's service.   
-https://www.vmware.com/support/ws55/doc/ws_net_nat_advanced.html   
+To access the socks5 proxy on guest from host, set vmware network to Bridge (Not NAT).   
+Find guest machine's ip address by run ipconfig in guest.   
+Disable Windows Defenter Firewall on guest. (Ping guest ip from host to check.)   
+Change ssh command to allow public access:
+	
+	ssh -N -D *:1080 weizhe@172.16.20.20
 
-For Ubuntu host, config file is /etc/vmware/vmnet8/nat/nat.conf   
-The [incomingtcp] Section:   
+You may need to change /etc/sshd/sshd_config on the ssh server you use, set "GatewayPorts yes" in the config file.   
 
-	2080 = xx.xx.xx.xx:1080
+Now you can set proxy in host to guest_ip:1080 to access the socks proxy.   
 
 # install shadowsocks server
 	sudo apt-get install python-setuptools
