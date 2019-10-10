@@ -47,3 +47,10 @@ you need to use cmake to build it first
 
     # scale=320:240 also works when convert images to video
     ffmpeg -i input.h264 -vf scale=320:240 output.h264
+
+# For IPhone HEIC images
+first install tifig, then:
+
+    for file in *.HEIC; do echo $file | xargs tifig -v -p $file ${file%.HEIC}.jpg; done
+    
+    
