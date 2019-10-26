@@ -69,3 +69,13 @@ Then what's the pose of camera in world coordinate? (All poses represented as 4x
     c) t2 - R2 * t1  
     d) (t2 - t1) * R1  
     
+8. What's the output of the following code:
+
+        float x = 1.25, y = 1.3;
+        printf("%.10f,%.10f\n",x,y);
+    
+    a) 1.2500000000,1.2999999523
+    b) 1.2500000012,1.2999999523
+    c) 1.2500000012,1.3000000013
+    d) 1.2499999781,1.2999999523
+    
