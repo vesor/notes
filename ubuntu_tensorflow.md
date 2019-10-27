@@ -32,6 +32,10 @@ Build:
     
     bazel build --config=opt --config=cuda //tensorflow/tools/pip_package:build_pip_package   
 
+Note: bazel will download files from internet, you may need http proxy to run.
+
+    https_proxy=https://127.0.0.1:1080 bazel build xxxxxxxxxx
+
 Build wheel:
 
     bazel-bin/tensorflow/tools/pip_package/build_pip_package tensorflow_pkg
