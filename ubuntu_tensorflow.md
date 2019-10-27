@@ -53,6 +53,16 @@ use "sudo -H pip3 uninstall protobuf" and "sudo pip3 uninstall protobuf" to clea
 
 ## C API
 
+Build C lib:
+
+    bazel build --config=opt --config=cuda //tensorflow/tools/lib_package:libtensorflow
+    
+It will generate archive at bazel-bin/tensorflow/tools/lib_package/libtensorflow.tar.gz   
+You can install it like:
+
+    tar -C /usr/local -xzf libtensorflow.tar.gz
+
+
 https://www.tensorflow.org/install/lang_c   
 https://github.com/tensorflow/tensorflow/blob/master/tensorflow/tools/lib_package/README.md   
 https://medium.com/@vladislavsd/undocumented-tensorflow-c-api-b527c0b4ef6   
