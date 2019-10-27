@@ -65,6 +65,8 @@ You can install it like:
 
 https://www.tensorflow.org/install/lang_c   
 https://github.com/tensorflow/tensorflow/blob/master/tensorflow/tools/lib_package/README.md   
+
+https://github.com/Neargye/hello_tf_c_api   
 https://medium.com/@vladislavsd/undocumented-tensorflow-c-api-b527c0b4ef6   
 https://github.com/aljabr0/from-keras-to-c/blob/master/model_run.cpp   
 
