@@ -1,4 +1,4 @@
-## install tensorflow
+## build tensorflow
 
 Refer to 
 1) https://www.tensorflow.org/install/source   
@@ -47,6 +47,12 @@ Err about "serialized_options":
 The protobuf installed via "sudo -H pip3 install" seems have wrong version.    
 use "sudo -H pip3 uninstall protobuf" and "sudo pip3 uninstall protobuf" to clean up.
 
-    
+## C API
+
+https://www.tensorflow.org/install/lang_c   
+https://github.com/tensorflow/tensorflow/blob/master/tensorflow/tools/lib_package/README.md   
+https://medium.com/@vladislavsd/undocumented-tensorflow-c-api-b527c0b4ef6   
+https://github.com/aljabr0/from-keras-to-c/blob/master/model_run.cpp   
+
     
 
