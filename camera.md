@@ -6,6 +6,10 @@ global shutter, rolling shutter
 
 camera modules: lens, CCD, ISP, serializer
 
+## courses
+
+https://www.bilibili.com/video/av57354999?p=2
+
 ## software
 
 Depth from Stereo camera:
