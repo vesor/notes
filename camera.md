@@ -1,3 +1,11 @@
+## hardware
+
+ISO, Aperture, exposure time, focus (even for fixed focal lens).
+
+global shutter, rolling shutter
+
+camera modules: lens, CCD, ISP, serializer
+
 
 Depth from Stereo camera:
 https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_calib3d/py_depthmap/py_depthmap.html   
