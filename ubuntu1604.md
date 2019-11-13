@@ -133,12 +133,20 @@ To retore back:
       echo 0 > /proc/sys/vm/dirty_bytes
 
 
-# Find files exclude directory
+## Find files exclude directory
 
       find . -path ./misc -prune -o -name '*.txt' -print
 
-# Bash rename files
+## Bash rename files
 rename all xxx_h.png to xxx_half.png:
 
       for file in *.png; do mv "$file" "${file/_h.png/_half.png}"; done
 
+## find and xargs
+
+      find . [args] -print0 | xargs -0 -n1 [cmd]
+      
+-print0 Tells find to print all results to std, each separated with the ASCII NUL character ‘\000’    
+-0 Tells xargs that the input will be separated with the ASCII NUL character ‘\000’    
+   NUL charater separation is a way to escape files which also contain spaces in their filenames.    
+-n1 Tells xarg to execute the command [cmd] with only one argument    
