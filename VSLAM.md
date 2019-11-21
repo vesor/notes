@@ -64,3 +64,9 @@ AutoX, camera first solution.
 
 https://devblogs.nvidia.com/int8-inference-autonomous-vehicles-tensorrt/
 
+## calibration
+https://github.com/MegviiRobot/CamOdomCalibraTool   
+https://en.wikipedia.org/wiki/Image_stitching   
+https://www.youtube.com/watch?v=Ub318sKg9SI   
+
+
