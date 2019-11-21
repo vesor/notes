@@ -78,6 +78,10 @@ https://item.taobao.com/item.htm?spm=a1z10.5-c-s.w4002-10209283947.23.acc8563305
 ## manual about 波束角
 https://pan.baidu.com/s/14VxzuB--QjwT2GkfiAr8GA   
 
+## install and calibration
+https://blog.csdn.net/rothschildxiaobo/article/details/90377929   
+https://blog.csdn.net/jickjiang/article/details/83346706   
+
 
 ## 360 view camera calibration
 http://blog.sina.cn/dpool/blog/s/blog_54af9e280102w1v8.html?md=gd   
