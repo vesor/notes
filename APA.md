@@ -81,7 +81,8 @@ https://pan.baidu.com/s/14VxzuB--QjwT2GkfiAr8GA
 ## install and calibration
 https://blog.csdn.net/rothschildxiaobo/article/details/90377929   
 https://blog.csdn.net/jickjiang/article/details/83346706   
-
+https://osch.oss-cn-shanghai.aliyuncs.com/blogAttachment/1554172381986.pdf   
+https://wenku.baidu.com/view/b33db5f027284b73f24250a7.html   
 
 ## 360 view camera calibration
 http://blog.sina.cn/dpool/blog/s/blog_54af9e280102w1v8.html?md=gd   
