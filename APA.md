@@ -1,5 +1,6 @@
 ## Auto grade
 AEC-Q100, ISO/TS 16949, ISO26262, ASIL  http://www.sohu.com/a/279076014_560058   
+Software Functional Safety: https://ez.analog.com/b/engineerzone-spotlight/posts/functional-safety-for-software 
 
 ## APA system compare   
 自动泊车谁最好用？Model 3/小鹏G3/威马EX5对比 https://hj.pcauto.com.cn/article/235889.html   
