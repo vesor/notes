@@ -177,10 +177,9 @@ https://arxiv.org/pdf/1807.01726.pdf
 https://arxiv.org/pdf/1612.02103.pdf
 
 
-### selfdriving projects
+### motion planning
 
-https://github.com/CPFL/Autoware
+https://blog.csdn.net/banzhuan133/article/details/99976957#_79   
 
-https://github.com/ApolloAuto/apollo
 
 
