@@ -48,7 +48,7 @@ https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-12138924093.17.78375d1ev9cq
 https://store.d3engineering.com/product/designcore-nvidia-jetson-serdes-card/       
 SD video input: https://rugged.com/ev178-development-system-a178-thunder   
 
-## Low cost 360 view solution:   
+## Low cost 360 surround view solution:   
 https://item.jd.com/14604887043.html#crumb-wrap   
 https://detail.tmall.com/item.htm?spm=a220o.1000855.w4004-15564783020.8.23144d10OoFRbB&pvid=3be81a43-084e-4dea-a5a7-7843e23cfc8f&pos=3&acm=03130.1003.1.701602&id=39969209108&scm=1007.12929.25829.100200300000000&skuId=3103942770681   
 https://item.taobao.com/item.htm?spm=a230r.1.14.33.2744705fpn0gWY&id=574650791314&ns=1&abbucket=4#detail   
@@ -89,7 +89,7 @@ https://wenku.baidu.com/view/b33db5f027284b73f24250a7.html
 1) simple way is 1-D filter, just like edge detection of images. Apply filters (DoG, Canny?) to find jumps.
 2) complex way might be sonar SLAM
 
-## 360 view camera calibration
+## 360 surround view camera calibration
 http://blog.sina.cn/dpool/blog/s/blog_54af9e280102w1v8.html?md=gd   
 Ref the patents: http://www.at-electronic.com/assets/%E5%AE%89%E6%99%93%E7%A7%91%E6%8A%80_%E4%BC%81%E4%B8%9A%E5%8F%8A%E4%BA%A7%E5%93%81%E7%B3%BB%E5%88%97%E7%AE%80%E4%BB%8B_201810.pdf    
 https://v.qq.com/x/page/b0504qx2bpp.html    
@@ -97,7 +97,7 @@ For the chessboard cloth: search 全景调试布 in taobao
 Thoughts: for intrinsic, go normal opencv way. for extrinsic, instead of focus on near points, should also consider far away points (5 meters).   
 Utilize lidar and poles: 1) install lidar, check lidar rotation: for example find 4 poles, make car paralle/orth to poles, then two pole's x or tow pole's y should be same. 2) use lidar to measure pole x,y (assume z known, use camera to capture pole's intersection point against ground floor. So we got world/image points pair to calculate extrinsics.    
 
-## 360 view algorithmn
+## 360 surround view algorithmn
 fisheye to cubemap: https://stackoverflow.com/questions/29678510/convert-21-equirectangular-panorama-to-cube-map   
 fisheye to perspective: http://paulbourke.net/dome/fish2/   
 fisheye representation: http://paulbourke.net/miscellaneous/360x180/   
