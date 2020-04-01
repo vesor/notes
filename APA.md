@@ -58,7 +58,7 @@ https://detail.tmall.com/item.htm?spm=a230r.1.14.20.2744705fpn0gWY&id=5541901101
 https://item.taobao.com/item.htm?spm=a230r.1.14.33.48853caaAkvZLQ&id=526370730596&ns=1&abbucket=4#detail    
 fish eye car camera, no water proof/HDR: https://store.d3engineering.com/product/designcore-d3rcm-ov10635-913-rugged-camera-module/     
 
-## Ultra Sonic
+## Ultrasonic
 https://www.maxbotix.com/SelectionGuide/Selection-Guide-Outdoor.htm   
 https://www.maxbotix.com/documents/HRXL-MaxSonar-WR_Datasheet.pdf   
 
