@@ -19,6 +19,10 @@ For Drive Xavier, it's NvMedia. See https://docs.nvidia.com/drive/nvvib_docs/ind
 
 For rendering, the dwRenderXXX api is not open source.
 
+# Streamer
+
+http://on-demand.gputechconf.com/gtc-eu/2017/presentation/53023-debalina-bhattacharjee-eglstreams-interoperability-for-camera-cuda-and-opengl.pdf
+
 
 
 # ref projects
