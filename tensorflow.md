@@ -34,3 +34,10 @@
         CUDA_VISIBLE_DEVICES="" python my_tf.py # no cuda, run on cpu
         CUDA_VISIBLE_DEVICES="0" # run on gpu 0
         
+## view graph in tensorboard
+
+        python import_pb_to_tensorboard.py --model_dir /tmp/mnist_model_graph.pb --log_dir /tmp/tensorflow_logdir
+        tensorboard --logdir=/tmp/tensorflow_logdir
+        
+        
+        
