@@ -3,6 +3,15 @@ https://developer.nvidia.com/embedded/downloads#?search=Jetson%20AGX%20Xavier
 
 NVIDIA Jetson AGX Xavier Camera Module Hardware Design Guide 
 
+# TensorCore
+
+https://zhuanlan.zhihu.com/p/71067422
+
+# PVA
+
+https://docs.nvidia.com/vpi/algorithms.html
+
+
 # software: 
 
 Camera Software Development Solution:   
@@ -22,8 +31,6 @@ For rendering, the dwRenderXXX api is not open source.
 # Streamer
 
 http://on-demand.gputechconf.com/gtc-eu/2017/presentation/53023-debalina-bhattacharjee-eglstreams-interoperability-for-camera-cuda-and-opengl.pdf
-
-
 
 # ref projects
 
