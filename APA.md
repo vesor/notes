@@ -102,6 +102,7 @@ fisheye to cubemap: https://stackoverflow.com/questions/29678510/convert-21-equi
 fisheye to perspective: http://paulbourke.net/dome/fish2/   
 fisheye representation: http://paulbourke.net/miscellaneous/360x180/   
 环视鸟瞰图拼接实现 http://pywonderland.com/post/vehicle-surround-view-system.html    
+车载环视拼接系统的设计与实现 https://blog.csdn.net/w77ayu/article/details/79686736
 
 ## BYD Qin 电路图
 https://max.book118.com/html/2018/0106/147547124.shtm    
