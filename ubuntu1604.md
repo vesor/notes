@@ -47,21 +47,29 @@ Use transfer.sh to transfer file (no scp support in tmate):
       curl https://transfer.sh/66nb8/hello.txt -o hello.txt
 
 # Use rsync to share folder between Mac and ubuntu
+
+General options:
+
+      az: archive and compress
+      v: verbose
+      rn: recursive and no-action (use to list which files will be transfer)
+      --delete: delete file if not in source
+
 From remote to local computer
 
-      rsync --progress --partial -avz user@remote.server:/folder/to/copy/ /local/folder
+      rsync --progress -azv user@remote.server:/folder/to/copy/ /local/folder
       
 If you want to copy specific files, include it in the path.
 
-      rsync --progress --partial -v /path/to/file/file.ext user@remote.server:/remote/folder/
+      rsync --progress -v /path/to/file/file.ext user@remote.server:/remote/folder/
 
 From local to remote computer
 
-      rsync --progress --partial -avz /folder/to/copy/ user@remote.server:/remote/folder
+      rsync --progress -azv /folder/to/copy/ user@remote.server:/remote/folder
 
 This will copy all files in /folder/to/copy/ to /remote/folder in the remote server, the folder copy itself will not be created in the remote computer, and only its contents will be copied, if you want the folder itself to also be created and then its contents copied inside the newly created copy folder, use this command.
 
-      rsync --progress --partial -avz /folder/to/copy user@remote.server:/remote/folder
+      rsync --progress -azv /folder/to/copy user@remote.server:/remote/folder
       
 # Config VNC server on 14.04
 https://www.vultr.com/docs/how-to-install-vnc-desktop-on-ubuntu-14-04
