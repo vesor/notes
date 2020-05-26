@@ -105,3 +105,6 @@ You can place the following in /etc/apt/apt.conf
 	
 	Acquire::http::Proxy "http://localhost:1080/";
 
+# use proxy for ssh
+
+	ssh -o ProxyCommand='nc -x 192.0.2.0:1080 %h %p' user@awshost
