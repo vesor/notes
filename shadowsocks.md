@@ -108,3 +108,8 @@ You can place the following in /etc/apt/apt.conf
 # use proxy for ssh
 
 	ssh -o ProxyCommand='nc -x 192.0.2.0:1080 %h %p' user@awshost
+
+# use proxy for rsync
+
+	rsync -e 'ssh -o "ProxyCommand nc -x 192.168.1.13:1080 %h %p"' --progress -rnv weizhe@172.16.20.20:/media/data/weizhe/papers/ /media/data/papers/
+	
