@@ -158,3 +158,15 @@ rename all xxx_h.png to xxx_half.png:
 -0 Tells xargs that the input will be separated with the ASCII NUL character ‘\000’    
    NUL charater separation is a way to escape files which also contain spaces in their filenames.    
 -n1 Tells xarg to execute the command [cmd] with only one argument    
+
+
+## suspend and wakup
+
+Sleep and wakeup after seconds:
+
+      sudo rtcwake -m mem -s 3600 # try different -m options to see if it is supported
+      
+Sleep after some time:
+
+      sleep 2h 45m 20s && systemctl suspend -i
+      
