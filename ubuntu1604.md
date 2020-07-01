@@ -159,6 +159,12 @@ rename all xxx_h.png to xxx_half.png:
    NUL charater separation is a way to escape files which also contain spaces in their filenames.    
 -n1 Tells xarg to execute the command [cmd] with only one argument    
 
+      tensorflow-master$ find . -regextype grep -regex ".*tensor.*[0-9]\{2\}.jpg"
+      ./tensorflow/examples/tutorials/deepdream/pilatus800.jpg
+      
+-regextype to specify regex format
+note it matches the whole path string, not only the filename.
+
 
 ## suspend and wakup
 
