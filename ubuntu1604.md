@@ -176,3 +176,14 @@ Sleep after some time:
 
       sleep 2h 45m 20s && systemctl suspend -i
       
+## Yocto linux set static IP
+
+Modify /etc/network/interfaces:
+
+      auto eth0
+      iface eth0 inet static
+              address 192.168.1.100
+              netmask 255.255.255.0
+              network 192.168.1.0
+              gateway 192.168.1.1
+        
