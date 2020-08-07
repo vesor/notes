@@ -187,3 +187,8 @@ Modify /etc/network/interfaces:
               network 192.168.1.0
               gateway 192.168.1.1
         
+## set network route priority 
+
+      route -n
+      sudo ifmetric wlan0 50 # lower means high priority
+      
