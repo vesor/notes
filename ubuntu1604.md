@@ -192,3 +192,23 @@ Modify /etc/network/interfaces:
       route -n
       sudo ifmetric wlan0 50 # lower means high priority
       
+## boot to text mode
+
+vi /etc/default/grub
+
+      GRUB_CMDLINE_LINUX_DEFAULT="text"
+      GRUB_TERMINAL=console
+
+After saving changes you need to run:
+
+      sudo update-grub
+      
+      sudo systemctl enable multi-user.target --force
+      sudo systemctl set-default multi-user.target
+
+Undoing text-mode
+
+      sudo systemctl enable graphical.target --force
+      sudo systemctl set-default graphical.target 
+      
+Then restore /etc/default/grub
