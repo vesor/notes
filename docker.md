@@ -22,3 +22,8 @@ Run bash on a container
 
     docker exec -it 1c76f7912221 /bin/bash
     
+List all remote tags:
+(https://raw.githubusercontent.com/denilsonsa/small_scripts/master/docker_remote_tags.py)
+
+    python3 docker_remote_tags.py tensorflow/tensorflow
+    
