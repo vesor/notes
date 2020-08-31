@@ -1,3 +1,7 @@
+Docker image compaitbility
+
+    https://www.redhat.com/en/resources/container-image-host-guide-technology-detail
+
 
 
 List all containers (only IDs)
