@@ -57,4 +57,21 @@ List all remote tags:
     python3 docker_remote_tags.py tensorflow/tensorflow
     
 
+## x11docker
+
+Run official ubuntu:18.04 docker, then apt install ubuntu-desktop. Commit docker as my_docker, then exit.
+
+    ./x11docker --sudouser -- "--privileged -v /media/data:/media/data -v /media/weizhe/carlab:/media/weizhe/carlab" my_docker:18.04 xterm
+
+    NOTE: "--sudouser" to fix "sudo" error (you still need to apt install sudo first)
+    "--privileged" to fix "permission denied" error even use sudo.
+    use "xterm" instead of "gnome-terminal" because "gnome-terminal" seems not compatible.
+
+    ./x11docker --sudouser --clipboard --hostdisplay -- "--privileged -v /media/data:/media/data -v /media/weizhe/carlab:/media/weizhe/carlab --network none" my_docker:18.04 xterm
+    
+    NOTE: "--clipboard" to allow share clipboard
+    "--hostdisplay" to use host xwindow display directly
+    "--network none" to prevent docker access network
+
+
 
