@@ -101,6 +101,8 @@ http://www.inf.u-szeged.hu/~palagyi/skel/skel.html
 
 # Sonar SLAM
 
+https://link.springer.com/article/10.1007/s12647-018-0289-x    
+
 http://www.docin.com/p-521936408.html    
 
 http://www.docin.com/p-972935976.html?docfrom=rrela    
