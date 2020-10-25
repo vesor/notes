@@ -98,3 +98,11 @@ GVD: may use boost and merge linesegments?
 Solver: use Ceres instead of own code?
 
 http://www.inf.u-szeged.hu/~palagyi/skel/skel.html
+
+# Sonar SLAM
+
+http://www.docin.com/p-521936408.html    
+
+http://www.docin.com/p-972935976.html?docfrom=rrela    
+
+https://ieeexplore.ieee.org/abstract/document/4735731    
