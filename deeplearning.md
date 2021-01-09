@@ -23,7 +23,16 @@ https://towardsdatascience.com/types-of-convolutions-in-deep-learning-717013397f
 
 ## Transformer
 
+https://kazemnejad.com/blog/transformer_architecture_positional_encoding/    
+
 https://www.cnblogs.com/jins-note/p/13056604.html    
+https://zhuanlan.zhihu.com/p/56501461    
+https://zhuanlan.zhihu.com/p/47282410    
+https://stats.stackexchange.com/questions/421935/what-exactly-are-keys-queries-and-values-in-attention-mechanisms    
+http://jalammar.github.io/illustrated-transformer/     
+http://vandergoten.ai/2018-09-18-attention-is-all-you-need/    
+http://nlp.seas.harvard.edu/2018/04/03/attention.html    
+
 
 ## ADAS
 
