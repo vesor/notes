@@ -34,4 +34,8 @@ https://mp.weixin.qq.com/s?__biz=MzUxNjcxMjQxNg==&mid=2247512713&idx=1&sn=e9925e
 https://zhuanlan.zhihu.com/p/88675419    
 https://zhuanlan.zhihu.com/p/88675790    
 
+## 3D BBox
+
+https://zhuanlan.zhihu.com/p/287791791
+
 
