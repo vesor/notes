@@ -212,3 +212,9 @@ Undoing text-mode
       sudo systemctl set-default graphical.target 
       
 Then restore /etc/default/grub
+
+## workaround CUDA error after wake from sleep
+
+      sudo rmmod nvidia_uvm
+      sudo modprobe nvidia_uvm
+
