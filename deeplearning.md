@@ -44,6 +44,7 @@ https://zhuanlan.zhihu.com/p/88675419
 https://zhuanlan.zhihu.com/p/88675790    
 
 Dateset: https://github.com/valeoai/woodscape    
+http://www.cvlibs.net/datasets/kitti-360/    
 
 ## 3D BBox
 
