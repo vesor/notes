@@ -106,3 +106,18 @@ Then config PYTHONPATH to add the path:
       export PYTHONPATH=/usr/local/opencv411/lib/python2.7/dist-packages:$PYTHONPATH
       
       
+## For normal use
+
+   cmake -D CMAKE_BUILD_TYPE=RELEASE \
+	  -D CMAKE_INSTALL_PREFIX=/usr/local \
+	  -D OPENCV_GENERATE_PKGCONFIG=ON  \
+	  -D ENABLE_PRECOMPILED_HEADERS=OFF \
+          -D WITH_CUDA=OFF \
+          -D ENABLE_CXX11=ON \
+          -D WITH_PROTOBUF=OFF \
+          -D WITH_QT=ON \
+          -D WITH_OPENGL=ON \
+          -D PYTHON_EXECUTABLE= \
+	  -D OPENCV_EXTRA_MODULES_PATH=../opencv_contrib-3.2.0/modules \
+	  ../opencv-3.2.0
+     
