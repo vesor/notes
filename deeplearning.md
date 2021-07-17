@@ -60,3 +60,20 @@ https://github.com/lzccccc/SMOKE
 https://github.com/Banconxuan/RTM3D    
 
 
+## SMOKE detector
+
+
+https://github.com/adrigrillo/SMOKE/commits/master/smoke
+https://github.com/Anirudh-Swaminathan/SMOKE/commits/master/smoke
+https://github.com/dashidhy/SMOKE/commits/master/smoke
+https://github.com/Jike-u/SMOKE/commits/master/smoke
+https://github.com/patrick-llgc/SMOKE/commits/master/smoke
+https://github.com/destinyls/SMOKE/commits/master/smoke
+https://github.com/xiaoMrzhang/SMOKE/commits/master/smoke
+https://github.com/wuminghu666/SMOKE
+https://github.com/Twizwei/SMOKE/commits/master/smoke
+https://github.com/ST-PerceptionX/SMOKE/commits/master/smoke
+https://github.com/NMme/SMOKE/commits/master/smoke
+https://github.com/MohamedKari/SMOKE/commits/master/smoke
+https://github.com/MatthewHowe/SMOKE/commits/master/smoke
+https://github.com/LJQCN101/SMOKE/commits/master/smoke  (update to cuda 11)
