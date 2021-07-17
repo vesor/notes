@@ -61,6 +61,8 @@ https://github.com/Banconxuan/RTM3D
 
 Papers:
 ROI-10D: Monocular Lifting of 2D Detection to 6D Pose and Metric Shape
+3D-RCNN: Instance-level 3D Object Reconstruction via Render-and-Compare
+3D Bounding Box Estimation Using Deep Learning and Geometry
 https://www.nmr.mgh.harvard.edu/mkozhevnlab/?page_id=308
 
 ## SMOKE detector
