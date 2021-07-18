@@ -58,6 +58,7 @@ Code：
 
 https://github.com/lzccccc/SMOKE    
 https://github.com/Banconxuan/RTM3D    
+https://github.com/Owen-Liuyuxuan/visualDet3D    
 
 Papers:    
 ROI-10D: Monocular Lifting of 2D Detection to 6D Pose and Metric Shape    
