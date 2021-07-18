@@ -59,26 +59,30 @@ Code：
 https://github.com/lzccccc/SMOKE    
 https://github.com/Banconxuan/RTM3D    
 
-Papers:
-ROI-10D: Monocular Lifting of 2D Detection to 6D Pose and Metric Shape
-3D-RCNN: Instance-level 3D Object Reconstruction via Render-and-Compare
-3D Bounding Box Estimation Using Deep Learning and Geometry
-https://www.nmr.mgh.harvard.edu/mkozhevnlab/?page_id=308
+Papers:    
+ROI-10D: Monocular Lifting of 2D Detection to 6D Pose and Metric Shape    
+3D-RCNN: Instance-level 3D Object Reconstruction via Render-and-Compare    
+3D Bounding Box Estimation Using Deep Learning and Geometry    
+https://www.nmr.mgh.harvard.edu/mkozhevnlab/?page_id=308    
+
+encode angle:    
+https://stats.stackexchange.com/questions/218407/encoding-angle-data-for-neural-network    
+https://datascience.stackexchange.com/questions/24986/parameterization-regression-of-rotation-angle    
 
 ## SMOKE detector
 
 
-https://github.com/adrigrillo/SMOKE/commits/master/smoke
-https://github.com/Anirudh-Swaminathan/SMOKE/commits/master/smoke
-https://github.com/dashidhy/SMOKE/commits/master/smoke
-https://github.com/Jike-u/SMOKE/commits/master/smoke
-https://github.com/patrick-llgc/SMOKE/commits/master/smoke
-https://github.com/destinyls/SMOKE/commits/master/smoke
-https://github.com/xiaoMrzhang/SMOKE/commits/master/smoke
-https://github.com/wuminghu666/SMOKE
-https://github.com/Twizwei/SMOKE/commits/master/smoke
-https://github.com/ST-PerceptionX/SMOKE/commits/master/smoke
-https://github.com/NMme/SMOKE/commits/master/smoke
-https://github.com/MohamedKari/SMOKE/commits/master/smoke
-https://github.com/MatthewHowe/SMOKE/commits/master/smoke
-https://github.com/LJQCN101/SMOKE/commits/master/smoke  (update to cuda 11)
+https://github.com/adrigrillo/SMOKE/commits/master/smoke    
+https://github.com/Anirudh-Swaminathan/SMOKE/commits/master/smoke    
+https://github.com/dashidhy/SMOKE/commits/master/smoke    
+https://github.com/Jike-u/SMOKE/commits/master/smoke    
+https://github.com/patrick-llgc/SMOKE/commits/master/smoke            
+https://github.com/destinyls/SMOKE/commits/master/smoke        
+https://github.com/xiaoMrzhang/SMOKE/commits/master/smoke    
+https://github.com/wuminghu666/SMOKE    
+https://github.com/Twizwei/SMOKE/commits/master/smoke    
+https://github.com/ST-PerceptionX/SMOKE/commits/master/smoke            
+https://github.com/NMme/SMOKE/commits/master/smoke        
+https://github.com/MohamedKari/SMOKE/commits/master/smoke    
+https://github.com/MatthewHowe/SMOKE/commits/master/smoke    
+https://github.com/LJQCN101/SMOKE/commits/master/smoke  (update to cuda 11)    
