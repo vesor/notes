@@ -48,7 +48,8 @@ http://www.cvlibs.net/datasets/kitti-360/
 
 ## 3D BBox
 
-https://zhuanlan.zhihu.com/p/287791791
+https://zhuanlan.zhihu.com/p/287791791    
+https://google.github.io/mediapipe/solutions/objectron.html    
 
 Leader board:
 http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d    
