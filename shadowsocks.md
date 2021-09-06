@@ -113,3 +113,7 @@ You can place the following in /etc/apt/apt.conf
 
 	rsync -e 'ssh -o "ProxyCommand nc -x 192.168.1.13:1080 %h %p"' --progress -rnv weizhe@172.16.20.20:/media/data/weizhe/papers/ /media/data/papers/
 	
+# intrannet proxy
+
+	10.224.0.110:3128
+	
