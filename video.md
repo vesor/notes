@@ -54,3 +54,24 @@ first install tifig, then:
     for file in *.HEIC; do echo $file | xargs tifig -v -p $file ${file%.HEIC}.jpg; done
     
     
+# Video processing
+
+假设您有6个分段ABCDEF，每个分段的长度为5秒，并且您希望A（0-5秒），C（10-15秒）和E（20-25秒）可以执行以下操作：
+
+ffmpeg -i abcdef.tvshow -t 5 a.tvshow -ss 10 -t 5 c.tvshow -ss 20 -t 5 e.tvshow
+要么
+
+ffmpeg -i abcdef.tvshow -t 0:00:05 a.tvshow -ss 0:00:10 -t 0:00:05 c.tvshow -ss 0:00:20 -t 0:00:05 e.tvshow
+这将使文件a.tvshow，c.tvshow和e.tvshow。该-t说每个剪辑有多长，所以如果c是30秒长，你可以通过在30或零点00分30秒。该-ss选项说明了跳入源视频的距离，因此它始终与文件的开头有关。
+
+然后，一旦您拥有一堆视频文件，我就制作一个ace-files.txt像这样的文件：
+
+file 'a.tvshow'
+file 'c.tvshow'
+file 'e.tvshow'
+注意开头的“文件”，其后注意转义的文件名。
+
+然后命令：
+
+ffmpeg -f concat -i ace-files.txt -c copy ace.tvshow
+
