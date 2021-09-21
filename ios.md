@@ -24,3 +24,6 @@ proj in node_modules/appium/node_modules/appium-webdriver-agent
 
 https://www.cnblogs.com/victorm/p/mac_appium.html    
 
+run in VM:   
+
+https://support.circleci.com/hc/en-us/articles/360052160592-Tests-Fail-With-Error-There-is-no-available-Metal-device-on-this-system-   
