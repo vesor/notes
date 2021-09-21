@@ -16,3 +16,11 @@ Calib:
 
 https://zhuanlan.zhihu.com/p/94244568    
 https://zhuanlan.zhihu.com/p/136827980    
+
+
+appium:
+
+proj in node_modules/appium/node_modules/appium-webdriver-agent
+
+https://www.cnblogs.com/victorm/p/mac_appium.html    
+
