@@ -79,3 +79,16 @@ Then what's the pose of camera in world coordinate? (All poses represented as 4x
     c) 1.2500000012,1.3000000013
     d) 1.2499999781,1.2999999523
     
+9. How to flip a image horizontally in numpy:
+   a) img = img[:, ::-1, :]
+   b) img = img[::-1, :, :]
+   c) img = img[, ::-1,]
+   d) img = img[... , ::-1, ...]
+
+10. If using same data when train and val, why loss is different in train and val.
+   a) data augmentation
+   b) drop out
+   c) batch normalization
+   d) mini batch size is small
+   
+   
