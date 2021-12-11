@@ -14,6 +14,11 @@ https://www.zhihu.com/column/c_1346070871304269824
 https://www.infoq.cn/article/ehumzq5uvhggfmuuddbr
 
 
+## WeNet docker
+
+https://askubuntu.com/questions/355565/how-do-i-install-the-latest-version-of-cmake-from-the-command-line 
+
+
 
 ## punctuation
 
