@@ -74,4 +74,8 @@ Run official ubuntu:18.04 docker, then apt install ubuntu-desktop. Commit docker
     "--network none" to prevent docker access network
 
 
+## docker shell can't display chinese
+
+docker exec -it b18f56aa1e15 env LANG=C.UTF-8 /bin/bash 
+
 
