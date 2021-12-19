@@ -31,3 +31,7 @@ Default for WAV output is a 16-bit encoder (pcm_s16le), so all you need to do is
 
 ffmpeg -i input.wav -ar 44100 output.wav
 
+## TTS
+
+https://github.com/isnowfy/snownlp   
+
