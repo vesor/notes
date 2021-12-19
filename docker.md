@@ -78,4 +78,8 @@ Run official ubuntu:18.04 docker, then apt install ubuntu-desktop. Commit docker
 
 docker exec -it b18f56aa1e15 env LANG=C.UTF-8 /bin/bash 
 
+## docker for remote debug
+
+https://zhuanlan.zhihu.com/p/80099904
+
 
