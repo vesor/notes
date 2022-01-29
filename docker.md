@@ -82,4 +82,16 @@ docker exec -it b18f56aa1e15 env LANG=C.UTF-8 /bin/bash
 
 https://zhuanlan.zhihu.com/p/80099904
 
+## connect to remote docker in vscode (better than using ssh server in docker)
+
+create tunnel to remote docker daemon:
+
+ssh -NL localhost:23750:/var/run/docker.sock username@remote_server
+
+then tell vscode by modify docker.host in settings:
+
+tcp://localhost:23750
+
+install vscode docker extension, then you can see docker containers
+
 
