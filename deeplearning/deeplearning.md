@@ -1,13 +1,5 @@
 
 
-## Activation and loss function
-
-https://www.dlology.com/blog/how-to-choose-last-layer-activation-and-loss-function/
-
-
-## mAP
-
-https://medium.com/@timothycarlen/understanding-the-map-evaluation-metric-for-object-detection-a07fe6962cf3
 
 ## SSD YOLO FPN
 
@@ -17,9 +9,6 @@ https://medium.com/@jonathan_hui/what-do-we-learn-from-single-shot-object-detect
 
 https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch/issues?q=python3   
 
-## Types of convolutions
-
-https://towardsdatascience.com/types-of-convolutions-in-deep-learning-717013397f4d
 
 ## Transformer
 
@@ -33,6 +22,10 @@ http://jalammar.github.io/illustrated-transformer/
 http://vandergoten.ai/2018-09-18-attention-is-all-you-need/    
 http://nlp.seas.harvard.edu/2018/04/03/attention.html    
 
+https://paddlepedia.readthedocs.io/en/latest/tutorials/computer_vision/classification/ViT.html   VIT
+
+https://openreview.net/pdf?id=vh-0sUt8HlG    MobileViT
+
 
 ## ADAS
 
@@ -43,13 +36,29 @@ https://mp.weixin.qq.com/s?__biz=MzUxNjcxMjQxNg==&mid=2247512713&idx=1&sn=e9925e
 https://zhuanlan.zhihu.com/p/88675419    
 https://zhuanlan.zhihu.com/p/88675790    
 
+3D Object Detection from a Single Fisheye Image Without a Single Fisheye Training Image
+https://openaccess.thecvf.com/content/CVPR2021W/OmniCV/papers/Plaut_3D_Object_Detection_From_a_Single_Fisheye_Image_Without_a_CVPRW_2021_paper.pdf
+
+FisheyeYOLO: Object Detection on Fisheye Cameras for Autonomous Driving
+https://ml4ad.github.io/files/papers2020/FisheyeYOLO:%20Object%20Detection%20on%20Fisheye%20Cameras%20for%20Autonomous%20Driving.pdf
+
+Generalized Object Detection on Fisheye Cameras for Autonomous
+Driving: Dataset, Representations and Baseline
+https://arxiv.org/pdf/2012.02124.pdf    
+
+
 Dateset: https://github.com/valeoai/woodscape    
 http://www.cvlibs.net/datasets/kitti-360/    
 
+
 ## 3D BBox
+
+https://zhuanlan.zhihu.com/p/423383902   单目3D视觉目标检测论文总结
+https://zhuanlan.zhihu.com/p/267241115    目标检测及物体识别tricks 
 
 https://zhuanlan.zhihu.com/p/287791791    
 https://google.github.io/mediapipe/solutions/objectron.html    
+https://arxiv.org/pdf/2106.15796.pdf  Monocular 3D Object Detection: An Extrinsic Parameter Free Approach    
 
 Leader board:
 http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d    
@@ -71,6 +80,23 @@ encode angle:
 https://stats.stackexchange.com/questions/218407/encoding-angle-data-for-neural-network    
 https://datascience.stackexchange.com/questions/24986/parameterization-regression-of-rotation-angle    
 
+
+## Rotated
+
+https://arxiv.org/pdf/1911.08299.pdf Learning Modulated Loss for Rotated Object Detection    
+
+
+## BEV
+
+https://zhuanlan.zhihu.com/p/365543182 自动驾驶感知中BEV的景物表示方法（上）    
+https://zhuanlan.zhihu.com/p/365561705 自动驾驶感知中BEV的景物表示方法（下）    
+
+
+Lift, Splat, Shoot: Encoding Images from
+Arbitrary Camera Rigs by Implicitly
+Unprojecting to 3D
+https://arxiv.org/pdf/2008.05711.pdf 
+
 ## SMOKE detector
 
 
@@ -89,15 +115,51 @@ https://github.com/MohamedKari/SMOKE/commits/master/smoke
 https://github.com/MatthewHowe/SMOKE/commits/master/smoke    
 https://github.com/LJQCN101/SMOKE/commits/master/smoke  (update to cuda 11)    
 
+
+## CenterNet
+
+https://arxiv.org/pdf/2108.05060.pdf MultiTask-CenterNet    
+https://github.com/CaoWGG/CenterNet-CondInst 
+
+
+## Lane 
+
+https://jishuin.proginn.com/p/763bfbd5d2e7 CondLaneNet：基于条件卷积的自顶向下车道检测
+
+
 ## Tracking
 
 https://huangpiao.tech/2020/04/15/%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%A4%9A%E7%9B%AE%E6%A0%87%E8%B7%9F%E8%B8%AA%E7%AE%97%E6%B3%95%EF%BC%88%E4%B8%8A%EF%BC%89%E2%80%94%E2%80%94%E7%AB%AF%E5%88%B0%E7%AB%AF%E7%9A%84%E6%95%B0%E6%8D%AE%E5%85%B3%E8%81%94/         
 https://github.com/MedChaabane/DEFT    
 
+## Superpoint
 
-## Freespace & Drivable area
+https://arxiv.org/pdf/2103.00191.pdf  FisheyeSuperPoint: Keypoint Detection and Description Network for Fisheye Images
+
+## Segmentation
+
+https://blog.51cto.com/u_15067234/2904375  将条件卷积引入实例分割   
+
+## Lines
+
+ULSD: Unified line segment detection across pinhole, fisheye, and spherical cameras
+
+## Compression
+
+https://arxiv.org/pdf/1911.09188.pdf Localized Compression: Applying Convolutional Neural Networks to Compressed Images
+
+On the Impact of Lossy Image and Video
+Compression on the Performance of Deep
+Convolutional Neural Network Architectures
+https://arxiv.org/pdf/2007.14314.pdf 
+
 
 
 ## Prediction
 
 https://blog.waymo.com/2022/02/utilizing-key-point-and-pose-estimation.html    
+
+
+## DataSet
+
+https://www.nuscenes.org/object-detection/?externalData=no&mapData=no&modalities=Camera    
