@@ -97,3 +97,7 @@ https://github.com/MedChaabane/DEFT
 
 ## Freespace & Drivable area
 
+
+## Prediction
+
+https://blog.waymo.com/2022/02/utilizing-key-point-and-pose-estimation.html    
