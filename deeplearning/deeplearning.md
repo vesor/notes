@@ -60,6 +60,11 @@ https://zhuanlan.zhihu.com/p/287791791
 https://google.github.io/mediapipe/solutions/objectron.html    
 https://arxiv.org/pdf/2106.15796.pdf  Monocular 3D Object Detection: An Extrinsic Parameter Free Approach    
 
+Pseudo-Stereo for Monocular 3D Object Detection in Autonomous Driving(自动驾驶中用于单目 3D 目标检测的伪立体)
+keywords: Autonomous Driving, Monocular 3D Object Detection
+https://arxiv.org/pdf/2203.02112.pdf
+
+
 Leader board:
 http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d    
 https://www.nuscenes.org/object-detection?externalData=all&mapData=all&modalities=Camera    
@@ -88,14 +93,19 @@ https://arxiv.org/pdf/1911.08299.pdf Learning Modulated Loss for Rotated Object 
 
 ## BEV
 
+https://towardsdatascience.com/monocular-bev-perception-with-transformers-in-autonomous-driving-c41e4a893944   
+
 https://zhuanlan.zhihu.com/p/365543182 自动驾驶感知中BEV的景物表示方法（上）    
 https://zhuanlan.zhihu.com/p/365561705 自动驾驶感知中BEV的景物表示方法（下）    
 
 
-Lift, Splat, Shoot: Encoding Images from
-Arbitrary Camera Rigs by Implicitly
-Unprojecting to 3D
+Lift, Splat, Shoot: Encoding Images from Arbitrary Camera Rigs by Implicitly Unprojecting to 3D
 https://arxiv.org/pdf/2008.05711.pdf 
+
+CenterFusion: Center-based Radar and Camera Fusion for 3D Object Detection
+https://openaccess.thecvf.com/content/WACV2021/papers/Nabati_CenterFusion_Center-Based_Radar_and_Camera_Fusion_for_3D_Object_Detection_WACV_2021_paper.pdf
+
+
 
 ## SMOKE detector
 
@@ -125,7 +135,7 @@ https://github.com/CaoWGG/CenterNet-CondInst
 ## Lane 
 
 https://jishuin.proginn.com/p/763bfbd5d2e7 CondLaneNet：基于条件卷积的自顶向下车道检测
-
+https://github.com/voldemortX/pytorch-auto-drive   
 
 ## Tracking
 
@@ -143,6 +153,13 @@ https://blog.51cto.com/u_15067234/2904375  将条件卷积引入实例分割
 ## Lines
 
 ULSD: Unified line segment detection across pinhole, fisheye, and spherical cameras
+
+## Contours
+
+E2EC: An End-to-End Contour-based Method for High-Quality High-Speed
+Instance Segmentation
+https://arxiv.org/pdf/2203.04074.pdf
+
 
 ## Compression
 
