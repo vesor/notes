@@ -13,4 +13,11 @@ https://e2e.ti.com/support/processors-group/processors/f/processors-forum/107503
 
 Converting without post-processing:
 https://e2e.ti.com/support/processors-group/processors/f/processors-forum/1075791/sk-tda4vm-failed-to-convert-ssd-mobilenet-without-postprocess-part
+CenterNet:
+
+https://e2e.ti.com/support/processors-group/processors/f/processors-forum/1008939/tda4vm-after-qat-the-accuracy-drop-is-still-more-than-10
+
+https://e2e.ti.com/support/processors-group/processors/f/processors-forum/1042985/tda4vm-query-regarding-centernet-model-porting?tisearch=e2e-sitesearch&keymatch=centernet#
+
+https://e2e.ti.com/support/processors-group/processors/f/processors-forum/1061717/tda4vm-query-regarding-centernet-model-porting?tisearch=e2e-sitesearch&keymatch=centernet#
 
