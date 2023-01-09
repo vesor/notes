@@ -95,3 +95,9 @@ tcp://localhost:23750
 install vscode docker extension, then you can see docker containers
 
 
+## find docker container by host PID
+
+    pstree -sg <PID>
+
+    docker ps -q | xargs docker inspect --format '{{.State.Pid}}, {{.Name}}' | grep "^%PID%"
+
