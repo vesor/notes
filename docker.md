@@ -88,7 +88,7 @@ create tunnel to remote docker daemon:
 
 ssh -NL localhost:23750:/var/run/docker.sock username@remote_server
 
-then tell vscode by modify docker.host in settings:
+then tell vscode by modify docker.host (DOCKER_HOST) in settings:
 
 tcp://localhost:23750
 
